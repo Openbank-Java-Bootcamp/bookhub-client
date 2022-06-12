@@ -11,3 +11,420 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+*{
+font-family: sans-serif;
+}
+
+.hero{
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url(books.jpg.jpg);
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+}
+
+.formBox{
+  width: 380px;
+  height: 480px;
+  position: relative;
+  margin: 6% auto;
+  background: #fff;
+  padding: 5px;
+}
+
+.button-box{
+  width: 220px;
+  margin: 35px auto;
+  position: relative;
+  box-shadow: 0 0 20px 9px #ff61241f;
+  border-radius: 30px;
+}
+
+.toggle-btn{
+  padding: 10px 30px;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  outline: none;
+  position: relative;
+}
+#btn{
+  top:0;
+  left:0;
+  position:absolute ;
+  width: 110px;
+  height: 100%;
+  background: linear-gradient(to right, #ff105f, #ffad06);
+  border-radius: 30px;
+  transition: .5s;  
+
+}
+
+.title{
+  color: #fff;
+  top: 200px;
+}
+
+#btn2{
+  top:0;
+  left:110px;
+  position:absolute ;
+  width: 110px;
+  height: 100%;
+  background: linear-gradient(to right, #ff105f, #ffad06);
+  border-radius: 30px;
+  transition: .5s;  
+
+}
+.input-group{
+  top: 180px;
+  position: absolute;
+  width: 280px;
+  transition: .5s;
+
+}
+.input-field{
+  width: 100%;
+  padding: 10px 0;
+  margin: 5px 0;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 1px solid #999;
+  outline: none;
+  background: transparent;
+}
+
+.input-field2{
+  width: 100%;
+  padding: 20px 40px;
+  margin: 5px 0;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 1px solid #999;
+  outline: none;
+  background: transparent;
+}
+
+.input-field3{
+  width: 80%;
+  padding: 20px 40px;
+  margin: 5px 0;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 1px solid #999;
+  outline: none;
+  background: rgba(0, 0, 0, 0.584);
+  color: white;
+}
+.summit-btn{
+  width:85%;
+  padding: 10px 30px;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+  background: linear-gradient(to right, #ff105f, #ffad06);
+  border: 0;
+  outline: none;
+  border-radius: 30px;
+}
+
+.summit-btn2{
+  width:85%;
+  padding: 10px 30px;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+  background: linear-gradient(to right, rgba(74, 230, 97, 0.288), #ffad06);
+  border: 0;
+  outline: none;
+  border-radius: 30px;
+  margin-bottom: 20px;
+}
+
+.summit-btn3{
+  width: 30%;
+  padding: 10px 30px;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+  background: linear-gradient(to right, rgba(74, 230, 97, 0.288), #ffad06);
+  border: 10px ;
+  outline: none;
+  border-radius: 30px;
+  margin-bottom: 20px;
+}
+
+.summit-btn3:hover, .summit-btn2:hover{
+  transform: scale(0.9);
+  background-color: rgba(74, 230, 97, 0.288);
+  color: white;
+}
+
+.buttonReview{
+  display: flex;
+  flex-direction: row;
+}
+
+.summit-btn4{
+  padding: 10px 30px;
+  cursor: pointer;
+  margin: auto;
+  background: linear-gradient(to right,  #ec3820);
+  border: 10px ;
+  outline: none;
+  border-radius: 30px;
+  margin-bottom: 20px;
+}
+
+.summit-btn5, .summit-btn6{
+  padding: 10px 30px;
+  cursor: pointer;
+  margin: auto;
+  background: linear-gradient(to right,  #ec3820);
+  border: 10px ;
+  outline: none;
+  border-radius: 30px;
+  margin-bottom: 20px;
+}
+
+ .summit-btn4:hover{
+  transform: scale(0.9);
+  background-color: rgba(209, 35, 35, 0.87);
+  color: white;
+}
+
+.summit-btn5:hover {
+  transform: scale(0.9);
+  background-color: rgba(15, 171, 106, 0.87);
+  color: white;
+}
+
+.summit-btn6:hover {
+  transform: scale(0.9);
+  background-color: rgb(255, 230, 0);
+  color: rgb(27, 28, 56);
+}
+
+
+
+#register{
+  left:50px;
+
+
+}
+#login{
+left:50px;
+}
+
+.header{
+  width: 100%;
+  height: 100px;
+
+}
+
+
+.Navbar{
+  width: 100%;
+  height: 100px;
+  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url(fondoBuscador.jpg);
+}
+
+.division{
+  width: 80%;
+}
+
+.container{
+  top: 500px;
+  width: 65%;
+  margin: 0 auto;
+  margin-top: 25px;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(200px, 0.5fr));
+  grid-gap: 20px;
+  box-sizing: border-box;
+}
+
+.card{
+background-color: rgb(230, 209, 74);
+  border-radius: 1rem;
+  padding: 0.5rem;
+  margin-bottom: 10px;
+  box-shadow: 0 5px 5px rgba(212,185,.5) ;
+  transition: .5s;
+  text-align: center;
+  position: relative;
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  border-radius: 1rem 1rem 0 0;
+
+}
+
+.card:hover{
+  transform: scale(0.9);
+  background-color: black;
+}
+
+.card .buttom{
+  display: flex;
+  flex-direction: column;
+}
+
+.card .buttom .title{
+  font-size:  14px;
+  margin-bottom: 12px;
+  text-decoration:  none;
+}
+
+.card .buttom .author{
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  right: 10px;
+  text-decoration:  none;
+}
+
+.bookDetail{
+  margin-top: 20px;
+  width: 90%;
+  height: 400px;
+  display: flex;
+  flex-direction: line;
+  background-color: rgb(230, 209, 74);
+  margin-bottom: 10px;
+  margin-left: 60px;
+
+}
+
+.ratingH{
+  width: 70%;
+}
+
+
+.detail1{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-right: 20px;
+  align-items: center;
+}
+
+.detail1 img {
+  height: 200px;
+  width: 200px;
+  margin-top: 20px;
+}
+.description{
+  font-size: 10px;
+  width: 50%;
+  height: 400px;
+  margin-top: 50px;
+  margin-right: 50px;
+}
+
+.logout{
+  background-color: white;
+  color:black;
+  border-radius: 30px;
+  border-color: white;
+  transition: transform 0.3s ease;
+  font-size: 1.20rem;
+  margin: 32px;
+  padding: 10px 40px;
+  position: relative;
+}
+
+.logout::after, .logout::before{
+  content:"";
+  position:absolute;
+  opacity:0.3;
+  background: white;
+  border-radius: inherit;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  transition: transform 0.3s ease;
+}
+
+.logout:hover{
+  transform: translate(-12px, -12px);
+}
+
+.logout:hover::after{
+  transform: translate(6px, 6px);
+}
+
+.logout:hover::before{
+  transform: translate(12px, 12px);
+}
+
+.testimonial-box-container{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.testimonial-box{
+  width: 500px;
+  box-shadow:2px 2px 30px rgba(0,0,0,0.1) ;
+  background-color: white;
+  padding: 20px;
+  margin: 15px;
+  cursor: pointer;
+}
+
+.profile{
+  display: flex;
+  justify-content: left;
+}
+
+.name-user strong{
+  color: #61641e;
+  font-size: 1.3rem;
+  letter-spacing: 0.5px; 
+}
+.name-user{
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+.name-user span{
+  font-size: 0.8rem;
+  color: #979797
+}
+
+.box-top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.client-comment{
+  font-size: 1.1rem;
+  color: #4b4b4b;
+}
+
+.YourRevew{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.labelStars{
+  font-size: 0.9rem;
+  justify-content: left;
+  font-display: left;
+  text-align: left;
+}

@@ -1,0 +1,587 @@
+{
+  "kind": "books#volumes",
+  "totalItems": 568,
+  "items": [
+    {
+      "kind": "books#volume",
+      "id": "tzNYEAAAQBAJ",
+      "etag": "g85wo0VTWr0",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/tzNYEAAAQBAJ",
+      "volumeInfo": {
+        "title": "Capitalism: An Unsustainable Future?",
+        "authors": [
+          "Malcolm Sawyer",
+          "Jonathan Michie"
+        ],
+        "publisher": "Routledge",
+        "publishedDate": "2022-03-31",
+        "description": "The four decades of neoliberalism, globalisation and financialisation have produced crises - financial and pandemic - and rising inequality. The climate emergency threatens the future of the planet. This book explores many dimensions of the background to these crises. There is the development of policy agendas to address the climate emergency. The rise in inequality is studied in terms of impacts of financialisation and the relationships between growth and inequality. The record of the neoliberal experiment in the USA is critically examined. The roles of financial institutions including public banks and micro-finance are explored, as is the need for improved financial oversight in the Economic and Monetary Union. The growth of global value chains has been a major aspect of globalisation, and the question is examined of whether such chains provide a ladder for development. Globalisation has also featured trade imbalances and large capital flows, and their causes and effects are examined with respect to China and South Africa respectively. This volume will be of great value to students, scholars and professionals interested in political economy, economic thought, climate change, sustainability and business studies. The chapters in this book were originally published as a special issue of the journal, International Review of Applied Economics.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781000552287"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1000552284"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 324,
+        "printType": "BOOK",
+        "categories": [
+          "Business & Economics"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.2.1.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=tzNYEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=tzNYEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.pl/books?id=tzNYEAAAQBAJ&pg=PT111&dq=PPP&hl=&as_pt=BOOKS&cd=2&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=tzNYEAAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=tzNYEAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "PL",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 216.78,
+          "currencyCode": "PLN"
+        },
+        "retailPrice": {
+          "amount": 162.93,
+          "currencyCode": "PLN"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=tzNYEAAAQBAJ&rdid=book-tzNYEAAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 216780000,
+              "currencyCode": "PLN"
+            },
+            "retailPrice": {
+              "amountInMicros": 162930000,
+              "currencyCode": "PLN"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "PL",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.pl/books/download/Capitalism_An_Unsustainable_Future-sample-epub.acsm?id=tzNYEAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.pl/books/download/Capitalism_An_Unsustainable_Future-sample-pdf.acsm?id=tzNYEAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=tzNYEAAAQBAJ&hl=&as_pt=BOOKS&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "There is no generally accepted exchange rate model (Cheung, Chinn, and Fujii 2010b). Most widely applied are various incarnations of the \u003cb\u003ePurchasing Power Parity\u003c/b\u003e (\u003cb\u003ePPP\u003c/b\u003e) and the macroeconomic fundamental approaches (Ahmed 2009; Cheung,&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "zPBUEAAAQBAJ",
+      "etag": "iMTJc4Dq9Ro",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/zPBUEAAAQBAJ",
+      "volumeInfo": {
+        "title": "Recent Advancements in Civil Engineering",
+        "subtitle": "Select Proceedings of ACE 2020",
+        "authors": [
+          "Boeing Laishram"
+        ],
+        "publisher": "Springer Nature",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9789811643965"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "9811643962"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "printType": "BOOK",
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=zPBUEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=zPBUEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.pl/books?id=zPBUEAAAQBAJ&pg=PA36&dq=PPP&hl=&as_pt=BOOKS&cd=3&source=gbs_api",
+        "infoLink": "http://books.google.pl/books?id=zPBUEAAAQBAJ&dq=PPP&hl=&as_pt=BOOKS&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Recent_Advancements_in_Civil_Engineering.html?hl=&id=zPBUEAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "PL",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "PL",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.pl/books/download/Recent_Advancements_in_Civil_Engineering-sample-epub.acsm?id=zPBUEAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=zPBUEAAAQBAJ&hl=&as_pt=BOOKS&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "identify a project that is suitable for development as a \u003cb\u003ePPP\u003c/b\u003e. ... Phase 2: \u003cb\u003ePPP\u003c/b\u003e decision, project appraisal and clearance—This phase evaluates the suitability for development of \u003cb\u003ePPPs\u003c/b\u003e. After being considered as suitable, the projects are&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "yaFaEAAAQBAJ",
+      "etag": "5eAFruFgdjk",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/yaFaEAAAQBAJ",
+      "volumeInfo": {
+        "title": "The New Cycle and New Finance in China",
+        "authors": [
+          "Shusong Ba"
+        ],
+        "publisher": "Springer Nature",
+        "publishedDate": "2022",
+        "description": "This book is a selection of research by a Chinese economist who explains China's financial system, as well as predicting the future. The selected 45 articles focus on six topics covering diverse levels: China's macroeconomic and financial system, financial institutions, payment and clearing industry, inclusive finance, urbanization and financial supervision. The book builds a brand overview on China's financial development trend in the past recent years and long term.--",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9789811682094"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "9811682097"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 374,
+        "printType": "BOOK",
+        "categories": [
+          "China"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.2.2.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=yaFaEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=yaFaEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.pl/books?id=yaFaEAAAQBAJ&pg=PR2&dq=PPP&hl=&as_pt=BOOKS&cd=5&source=gbs_api",
+        "infoLink": "http://books.google.pl/books?id=yaFaEAAAQBAJ&dq=PPP&hl=&as_pt=BOOKS&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/The_New_Cycle_and_New_Finance_in_China.html?hl=&id=yaFaEAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "PL",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "PL",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.pl/books/download/The_New_Cycle_and_New_Finance_in_China-sample-epub.acsm?id=yaFaEAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=yaFaEAAAQBAJ&hl=&as_pt=BOOKS&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "This book is a selection of research by a Chinese economist who explains China&#39;s financial system, as well as predicting the future."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "0QaLzgEACAAJ",
+      "etag": "qL8O1alOSHI",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/0QaLzgEACAAJ",
+      "volumeInfo": {
+        "title": "Handbook on Public Private Partnerships in Transportation, Vol I",
+        "subtitle": "Airports, Water Ports, Rail, Buses, Taxis, and Finance",
+        "authors": [
+          "Simon Hakim",
+          "Robert M. Clark",
+          "Erwin A. Blackstone"
+        ],
+        "publisher": "Springer",
+        "publishedDate": "2022-01-05",
+        "description": "This book discusses the role of public-private partnerships (PPPs) in global transportation infrastructure. Seen as a way to provide vital services in an era of shrinking government budgets, public-private partnerships have become an increasingly important part of travel infrastructure worldwide. This book describes and analyzes the structure of various models of PPPs in various countries, evaluating their effectiveness, and drawing policy implications for future use. Written by leading international researchers and practitioners in the transportation field, each chapter is a case study on the adoption, implementation, and outcome of transportation services in different municipalities. Taken together, these diverse case studies provide an integrated framework for evaluating and using PPPs. Providing rigorous empirical analysis of PPPs in transportation, this volume will be of interest to researchers in public administration, political science, and economics as well as practitioners and policymakers involved in establishing and monitoring PPPs in transportation.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "3030834832"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9783030834838"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 339,
+        "printType": "BOOK",
+        "categories": [
+          "Law"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=0QaLzgEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=0QaLzgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.pl/books?id=0QaLzgEACAAJ&dq=PPP&hl=&as_pt=BOOKS&cd=6&source=gbs_api",
+        "infoLink": "http://books.google.pl/books?id=0QaLzgEACAAJ&dq=PPP&hl=&as_pt=BOOKS&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Handbook_on_Public_Private_Partnerships.html?hl=&id=0QaLzgEACAAJ"
+      },
+      "saleInfo": {
+        "country": "PL",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "PL",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=0QaLzgEACAAJ&hl=&as_pt=BOOKS&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "This book discusses the role of public-private partnerships (PPPs) in global transportation infrastructure."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "cjNREAAAQBAJ",
+      "etag": "Dlu58prwCrc",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/cjNREAAAQBAJ",
+      "volumeInfo": {
+        "title": "Maritime Logistics",
+        "subtitle": "A Guide to Contemporary Shipping and Port Management",
+        "authors": [
+          "Dong-Wook Song",
+          "Photis Panayides"
+        ],
+        "publisher": "Kogan Page Publishers",
+        "publishedDate": "2021-12-03",
+        "description": "Sea freight remains overwhelmingly the most common form of transport for goods globally. Grasp the core theories and understand the latest research in maritime logistics, along with how this field operates and contributes to global supply chains, with this key textbook. Maritime Logistics provides a complete overview of the core concepts within this discipline from a range of international expert contributors. This textbook examines the recent developments in the ports and shipping industries including supply chain strategies and emerging, innovative practices. Designed for maritime students and professionals, the structure offers a complete approach with an emphasis on developing a well-rounded knowledge and understanding of the field. The third edition is fully updated with new content on maintenance optimization, supply chain integration, economies of scale within liner shipping and port performance and management. In addition, this edition examines new technologies, considers new and existing risks to the maritime supply chain as well as generally how maritime logistics will continue to evolve. For those seeking to become maritime logistics specialists, this is the authoritative companion.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781789661705"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1789661706"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 536,
+        "printType": "BOOK",
+        "categories": [
+          "Business & Economics"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.1.1.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=cjNREAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=cjNREAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.pl/books?id=cjNREAAAQBAJ&pg=PA373&dq=PPP&hl=&as_pt=BOOKS&cd=7&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=cjNREAAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=cjNREAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "PL",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 289.1,
+          "currencyCode": "PLN"
+        },
+        "retailPrice": {
+          "amount": 289.1,
+          "currencyCode": "PLN"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=cjNREAAAQBAJ&rdid=book-cjNREAAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 289100000,
+              "currencyCode": "PLN"
+            },
+            "retailPrice": {
+              "amountInMicros": 289100000,
+              "currencyCode": "PLN"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "PL",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.pl/books/download/Maritime_Logistics-sample-epub.acsm?id=cjNREAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.pl/books/download/Maritime_Logistics-sample-pdf.acsm?id=cjNREAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=cjNREAAAQBAJ&hl=&as_pt=BOOKS&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "As such, ports have been seeking private sector participation through various forms of \u003cb\u003epublic-private partnership\u003c/b\u003e (\u003cb\u003ePPP\u003c/b\u003e) schemes. \u003cb\u003ePPPs\u003c/b\u003e are not narrowly defined to mean the full privatization of public services."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "Ch5QEAAAQBAJ",
+      "etag": "bXSuCBvh/Es",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/Ch5QEAAAQBAJ",
+      "volumeInfo": {
+        "title": "Applied Money And Banking - SBPD Publications",
+        "authors": [
+          "Dr. Satish Kumar Saha"
+        ],
+        "publisher": "SBPD Publications",
+        "publishedDate": "2021-11-22",
+        "description": "1.Definition and functions of Money, 2. Nature and Importance of Money, 3. Classification of Money, 4. Supply of Money and High Powerd Money, 5. Gresham Law, 6 .Value of Money and Index Number, 7. Quantity Theory of Money, 8. Inflation and Deflation, 9. Gold Standard- Forms , 10. International Gold Standard 11.Financial Market: Money and Capital Market, 12.Role (Importance of Money : In Capitalist, Socialist and Mixed Economics, 13. Income Theory of Money, 14.Forign Exchange : Meaning, Problems Determination and Purchasing Power Parity (PPP) Theory, 15. Internatinal Monetary Fund, 16. Free Trade and Protection,",
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 179,
+        "printType": "BOOK",
+        "categories": [
+          "Law"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.1.0.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=Ch5QEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=Ch5QEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.pl/books?id=Ch5QEAAAQBAJ&printsec=frontcover&dq=PPP&hl=&as_pt=BOOKS&cd=8&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=Ch5QEAAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=Ch5QEAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "PL",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 8.74,
+          "currencyCode": "PLN"
+        },
+        "retailPrice": {
+          "amount": 8.74,
+          "currencyCode": "PLN"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=Ch5QEAAAQBAJ&rdid=book-Ch5QEAAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 8740000,
+              "currencyCode": "PLN"
+            },
+            "retailPrice": {
+              "amountInMicros": 8740000,
+              "currencyCode": "PLN"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "PL",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.pl/books/download/Applied_Money_And_Banking_SBPD_Publicati-sample-pdf.acsm?id=Ch5QEAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=Ch5QEAAAQBAJ&hl=&as_pt=BOOKS&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "1.Definition and functions of Money, 2."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "Ui5AEAAAQBAJ",
+      "etag": "IHfi+xayGiA",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/Ui5AEAAAQBAJ",
+      "volumeInfo": {
+        "title": "Corruption, Infrastructure Management and Public–Private Partnership",
+        "subtitle": "Optimizing through Mathematical Models",
+        "authors": [
+          "Mohammad Heydari",
+          "Kin Keung Lai",
+          "Zhou Xiaohu"
+        ],
+        "publisher": "Routledge",
+        "publishedDate": "2021-10-28",
+        "description": "Public-Private Partnerships (PPP or 3Ps) allow the public sector to seek alternative funding and expertise from the private sector during procurement processes. Such partnerships, if executed with due diligence, often benefit the public immensely. Unfortunately, Public-Private Partnerships can be vulnerable to corruption. This book looks at what measures we can put in place to check corruption during procurement and what good governance strategies the public sector can adopt to improve the performance of 3Ps. The book applies mathematical models to analyze 3Ps. It uses game theory to study the interaction and dynamics between the stakeholders and suggests strategies to reduce corruption risks in various 3Ps stages. The authors explain through game theory-based simulation how governments can adopt a evaluating process at the start of each procurement to weed out undesirable private partners and why the government should take a more proactive approach. Using a methodological framework rooted in mathematical models to illustrate how we can combat institutional corruption, this book is a helpful reference for anyone interested in public policymaking and public infrastructure management.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781000465938"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1000465934"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 264,
+        "printType": "BOOK",
+        "categories": [
+          "Mathematics"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=Ui5AEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=Ui5AEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.pl/books?id=Ui5AEAAAQBAJ&pg=PP1&dq=PPP&hl=&as_pt=BOOKS&cd=9&source=gbs_api",
+        "infoLink": "http://books.google.pl/books?id=Ui5AEAAAQBAJ&dq=PPP&hl=&as_pt=BOOKS&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Corruption_Infrastructure_Management_and.html?hl=&id=Ui5AEAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "PL",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "PL",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.pl/books/download/Corruption_Infrastructure_Management_and-sample-epub.acsm?id=Ui5AEAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.pl/books/download/Corruption_Infrastructure_Management_and-sample-pdf.acsm?id=Ui5AEAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=Ui5AEAAAQBAJ&hl=&as_pt=BOOKS&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "This book looks at what measures we can put in place to check corruption during procurement and what good governance strategies the public sector can adopt to improve the performance of 3Ps."
+      }
+    }
+    
+  ]
+}
