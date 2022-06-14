@@ -1,7 +1,6 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import AddBook from "../components/AddBook";
 import Navbar from "../components/Navbar";
 import RatingBox from "./RatingBox";
 const API_URL = "http://localhost:5005/api/ratings/";
@@ -14,6 +13,7 @@ function RatingBook(props) {
     const[points, setPoints] = useState(0);
     const[comment, setComment] = useState("");
     const[owner, setOwner] = useState(false);
+    const[filter, setFilter] = useState("");
 
 
     useEffect(() =>{
@@ -21,8 +21,9 @@ function RatingBook(props) {
     },[]);
 
     const getReviews = () =>{
+        console.log("does get inside?");
         const storedToken = localStorage.getItem("authToken");
-        axios.get(API_URL+props.bookId,  {
+        axios.get(API_URL+bookId,  {
             headers: { Authorization: `Bearer ${storedToken}` },
           })
         .then((response) => {
@@ -55,7 +56,15 @@ function RatingBook(props) {
             getReviews();
           })
           .catch((error) => console.log(error));
+    }
 
+    const handleFilterChange = (e) =>{
+        e.preventDefault();
+        ratings.sort((a,b) => a.points - b.points);
+    }
+
+    const test = () =>{
+        getReviews();
     }
 
     return(
@@ -63,9 +72,15 @@ function RatingBook(props) {
             {loading ? <div>loading </div>
                 :(
             <div>
-                  <div className="testimonial-box-container" >
+                  <button onClick={test}>test</button>
+                FILTER BY: 
+                <select className="select1" name="select" value={filter} onChange={handleFilterChange}>
+                         <option value=""> </option>
+                        <option value="Points">Puntuation </option>
+                    </select>
+            <div className="testimonial-box-container" >
             {ratings.map((rating) =>{
-                return ( <RatingBox key={rating.id} rating={rating} refresh={getReviews} />
+                return ( <RatingBox key={rating.id} rating={rating} refresh={test} />
                 );
             })}
                 </div>

@@ -96,6 +96,17 @@ font-family: sans-serif;
   outline: none;
   background: transparent;
 }
+.input-field6{
+  width: 10%;
+  padding: 10px 0;
+  margin: 5px 0;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 1px solid #999;
+  outline: none;
+  background: transparent;
+}
 
 .input-field2{
   width: 100%;
@@ -120,6 +131,13 @@ font-family: sans-serif;
   outline: none;
   background: rgba(0, 0, 0, 0.584);
   color: white;
+}
+
+.select1{
+  margin-bottom: 20px;
+  padding: 10px 50px;
+  font-size: 1.1rem;
+
 }
 .summit-btn{
   width:85%;
@@ -181,6 +199,19 @@ font-family: sans-serif;
   margin-bottom: 20px;
 }
 
+.inputReading{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.columnsbboks{
+  display: flex;
+  flex-direction: line;
+  justify-content: space-between;
+  margin-left: 40px;
+  margin-right: 40px;
+  height: 100%;
+}
 .summit-btn5, .summit-btn6{
   padding: 10px 30px;
   cursor: pointer;
@@ -191,14 +222,51 @@ font-family: sans-serif;
   border-radius: 30px;
   margin-bottom: 20px;
 }
+.summit-btn7{
+  padding: 5px 10px;
+  width: 50%;
+  cursor: pointer;
+  background: linear-gradient(to right,  #ec3820);
+  border: 10px ;
+  outline: none;
+  border-radius: 50px;
+  margin-bottom: 15px; 
+}
 
- .summit-btn4:hover{
+.summit-btn8{
+  padding: 5px 10px;
+  width: 60%;
+  cursor: pointer;
+  background: linear-gradient(to right,  #ec3820);
+  border: 10px ;
+  outline: none;
+  border-radius: 50px;
+  margin-bottom: 15px; 
+}
+.buttom{
+  background: transparent;
+}
+
+.colum{
+  margin-top: 20px;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+}
+
+.booktit{
+  background-color: black;
+  width: 80%;
+  color:white;
+}
+
+ .summit-btn4:hover, .summit-btn7:hover{
   transform: scale(0.9);
   background-color: rgba(209, 35, 35, 0.87);
   color: white;
 }
 
-.summit-btn5:hover {
+.summit-btn5:hover, .summit-btn8:hover {
   transform: scale(0.9);
   background-color: rgba(15, 171, 106, 0.87);
   color: white;
@@ -249,6 +317,19 @@ left:50px;
   box-sizing: border-box;
 }
 
+.container2{
+  top: 500px;
+  width: 65%;
+  margin: 0 auto;
+  margin-top: 25px;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(200px, 0.5fr));
+  grid-gap: 20px;
+  box-sizing: border-box;
+  margin-left: 20px;
+}
+
+
 .card{
 background-color: rgb(230, 209, 74);
   border-radius: 1rem;
@@ -258,6 +339,50 @@ background-color: rgb(230, 209, 74);
   transition: .5s;
   text-align: center;
   position: relative;
+}
+
+.cardTBR{
+  background-color: #b9d161;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  margin-bottom: 10px;
+  box-shadow: 0 5px 5px rgba(212,185,.5) ;
+  transition: .5s;
+  text-align: center;
+  position: relative;
+}
+
+.cardREAD{
+  background-color: #e18942;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  margin-bottom: 10px;
+  box-shadow: 0 5px 5px rgba(212,185,.5) ;
+  transition: .5s;
+  text-align: center;
+  position: relative;
+}
+
+.cardREADING{
+  background-color: #d5a18e;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  margin-bottom: 10px;
+  box-shadow: 0 5px 5px rgba(212,185,.5) ;
+  transition: .5s;
+  text-align: center;
+  position: relative;
+}
+
+.cardREADING:hover{
+  transform: scale(0.9);
+  background-color: rgba(223, 172, 83, 0.094);
+}
+
+
+.cardREAD:hover{
+  transform: scale(0.9);
+  background-color: rgba(83, 223, 221, 0.094);
 }
 
 .card img {
@@ -271,6 +396,20 @@ background-color: rgb(230, 209, 74);
   transform: scale(0.9);
   background-color: black;
 }
+
+.cardTBR:hover{
+  transform: scale(0.9);
+  background-color: rgba(223, 83, 160, 0.094);
+}
+
+.card .button .title2{
+  text-decoration: none;
+}
+.title2:hover{
+  color: black;
+}
+
+
 
 .card .buttom{
   display: flex;
@@ -427,4 +566,46 @@ background-color: rgb(230, 209, 74);
   justify-content: left;
   font-display: left;
   text-align: left;
+}
+
+.overlay{
+min-height: 100vh;
+width: 100%;
+left:0 ;
+top: 0;
+bottom: 0;
+right: 0;
+background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url(fondoBuscador.jpg);
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.overlay-inner{
+  background: white;
+  width:700px;
+  height: 550px;
+  padding: 1.5rem;
+  position: relative;
+  box-sizing: border-box;
+  overflow: hidden;
+  font-size: 1.3rem;
+}
+
+.overlay-inner .close{
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  outline: none;
+  border: none;
+  font-size: 17px;
+  background: transparent;
+  text-decoration: none;
+}
+
+.overlay-inner .inner-box{
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }

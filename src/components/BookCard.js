@@ -12,7 +12,6 @@ function BookCard(props){
             <img src={props.book.volumeInfo.imageLinks.smallThumbnail} alt="book cover" />
             <div className="button">
                 <h3 className="title">{props.book.volumeInfo.title}</h3>
-                <p className="author">Something</p>
             </div>
         </div>
         </Link>

@@ -41,6 +41,7 @@ function RatingBox(props){
             headers: { Authorization: `Bearer ${storedToken}` },
           })
         .then((response) => {
+            props.refresh();
         })
         .catch((error) => console.log(error));
         props.refresh();

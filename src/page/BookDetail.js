@@ -1,12 +1,11 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import AddBook from "../components/AddBook";
 import Navbar from "../components/Navbar";
 import RatingBook from "../components/RatingsBook";
 import bookData from "../samplebooks.json"
 const API_URL = "http://localhost:5005/api/ratings";
-
+const API_URL2 = "http://localhost:5005/api/books";
 
 function BookDetail(){
     const{id} = useParams();
@@ -17,13 +16,17 @@ function BookDetail(){
     const[Form, setForm]=useState(false);
     const[points, setPoints] = useState(0);
     const[comment, setComment] = useState("");
+    const[reading, setReading] = useState(false);
+    const[error, setErrot] = useState(false);
 
     const handlepoints = (e) => setPoints(e.target.value);
     const handleComment = (e) => setComment(e.target.value);
 
+    //añadir info del book
     const handleRevewSumit = (e) =>{
         e.preventDefault();
-        const requestBody = {"bookId": id,points, comment }
+        const requestBody = {"bookId": id,points, comment, "imagen":book.volumeInfo.imageLinks.smallThumbnail,
+    "title":book.volumeInfo.title, "pages":book.volumeInfo.pageCount}
         const storedToken = localStorage.getItem("authToken");
         console.log(requestBody);
         // Send the token through the request "Authorization" Headers
@@ -84,32 +87,49 @@ function BookDetail(){
 
     */
 
-    const addBook = () =>{
-        const storedToken = localStorage.getItem("authToken");
-
-        const requestBody =
-        {
-            id, status, pagesRead
-        }
-
-        // Send the token through the request "Authorization" Headers
-        axios
-          .post(`${API_URL}/api/books`, requestBody, {
-            headers: { Authorization: `Bearer ${storedToken}` },
-          })
-          .then((response) => {
-            // Reset the state
-            
-          })
-          .catch((error) => console.log(error));
-    };
-    
     const seeForm = () =>{
         Form ? setForm(false)
         : setForm(true);
     }
 
+    const handleStatusChange = (e)  =>{
+        if(e.target.value=="READING"){
+            setReading(true);
+        }else{
+            setReading(false);
+        }
+        setStatus(e.target.value)
+    }
     
+    const AddToBookToUser = (e) =>{
+        e.preventDefault();
+        const storedToken = localStorage.getItem("authToken");
+        var pagesR = parseInt(pagesRead);
+
+        const requestBody =
+        {
+            id, status,"pagesRead": pagesR , "imagen": book.volumeInfo.imageLinks.smallThumbnail,
+            "title":book.volumeInfo.title, "pages":book.volumeInfo.pageCount
+        }
+        console.log("Request body:")
+        console.log(requestBody);
+        axios
+          .post(API_URL2, requestBody, {
+            headers: { Authorization: `Bearer ${storedToken}` },
+          })
+          .then((response) => {
+            setErrot(false);
+            setComment("");
+            setPagesRead(0);
+            setReading(false);
+            setForm(false);
+            
+          })
+          .catch((error) =>{
+             console.log(error)
+            setErrot(true)});
+    }
+
  
     return(
         <div>
@@ -133,10 +153,27 @@ function BookDetail(){
                 <div dangerouslySetInnerHTML={{ __html: book.volumeInfo.description }} />
                 </div>
             </div>
-            <div className="formAddBook">
-            </div>
             <div className="addBookBut">
                     <button className="summit-btn3" onClick={seeForm}>{Form ? "Hide Form" : "Add to my Shelf" }</button>
+                {Form? 
+                    <div className="editReviewForm">
+                    <form onSubmit={AddToBookToUser}>
+                    <select className="select1" name="select" value={status} onChange={handleStatusChange}>
+                         <option value=""> </option>
+                        <option value="READ">I have already read it ! </option>
+                        <option value="READING" selected>What a coincidence, I am reading it !</option>
+                        <option value="TBR">I wanna save it for the future</option>
+                    </select>
+                    {reading? <div className="inputReading">
+                    <label className="labelStars">In which page are you?</label>
+                    <input className="input-field6" min="1" max={book.volumeInfo.pageCount} type="number" name="pagesRead" value={pagesRead} onChange={(e) => setPagesRead(e.target.value)} />
+                    </div>
+                    :(<div></div>)}
+                    <button className="summit-btn6" type="submit">Add it!</button>
+                    {error? <p>Book already save as {status} </p> :(<p></p>)}
+                    </form>
+                    </div>
+                :(<div></div>)}
             </div>
                 <div>
                     <h3>PEOPLE´S OPINION</h3>

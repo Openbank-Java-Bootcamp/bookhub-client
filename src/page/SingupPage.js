@@ -32,6 +32,7 @@ function SignupPage(props) {
         navigate("/login");
       })
       .catch((error) => {
+        console.log(error.response);
         const errorDescription = error.response.data.errors[0].defaultMessage;
         setErrorMessage(errorDescription);
       });
@@ -63,7 +64,7 @@ function SignupPage(props) {
           onChange={handlePassword}
         />
 
-        <button class="summit-btn" type="submit">Login</button>
+        <button class="summit-btn" type="submit">Sing Up</button>
       </form>
       {errorMessage && <p className="error-message">{errorMessage}</p>}
       </div>

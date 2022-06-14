@@ -9,6 +9,7 @@ import Navbar from './components/Navbar';
 import BookDetail from './page/BookDetail';
 import IsPrivate from './components/IsPrivate';
 import MyBooks from './page/MyBooks';
+import InfoMyBook from './page/InfoMyBook';
 
 function App() {
   return (
@@ -47,6 +48,14 @@ function App() {
           element={
             <IsPrivate>
               <MyBooks />
+            </IsPrivate>
+          }
+        />
+         <Route
+          path="/book/:isbn/info"
+          element={
+            <IsPrivate>
+              <InfoMyBook />
             </IsPrivate>
           }
         />
