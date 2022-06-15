@@ -18,6 +18,7 @@ function BookDetail(){
     const[comment, setComment] = useState("");
     const[reading, setReading] = useState(false);
     const[error, setErrot] = useState(false);
+    const[bookAdded, setBookAdded] = useState(false);
 
     const handlepoints = (e) => setPoints(e.target.value);
     const handleComment = (e) => setComment(e.target.value);
@@ -38,13 +39,13 @@ function BookDetail(){
             // Reset the state
             setPoints(0);
             setComment("");
-            getbookDBFalsa();
+            getBook();
           })
           .catch((error) => console.log(error));
 
     }
 
-
+/*
     //FOR WHEN WE WORK WITH THE SAMPLE DATA
     useEffect(() =>{
         var dbBook = bookData.items.map((v1) =>{
@@ -67,8 +68,9 @@ function BookDetail(){
     }
 
     //end of working with sample data
+    */
 
-    /*
+    
     useEffect(() =>{
         getBook();
     },[]);
@@ -85,7 +87,7 @@ function BookDetail(){
         console.log(book);
     }
 
-    */
+
 
     const seeForm = () =>{
         Form ? setForm(false)
@@ -107,10 +109,8 @@ function BookDetail(){
         var pagesR = parseInt(pagesRead);
 
         const requestBody =
-        {
-            id, status,"pagesRead": pagesR , "imagen": book.volumeInfo.imageLinks.smallThumbnail,
-            "title":book.volumeInfo.title, "pages":book.volumeInfo.pageCount
-        }
+        {id, status,"pagesRead": pagesR , "imagen": book.volumeInfo.imageLinks.smallThumbnail,
+            "title":book.volumeInfo.title, "pages":book.volumeInfo.pageCount}
         console.log("Request body:")
         console.log(requestBody);
         axios
@@ -123,6 +123,7 @@ function BookDetail(){
             setPagesRead(0);
             setReading(false);
             setForm(false);
+            setBookAdded(true);
             
           })
           .catch((error) =>{
@@ -140,20 +141,21 @@ function BookDetail(){
             <div className="bookDetail">
                 <div className="detail1">
                     <img src={book.volumeInfo.imageLinks.smallThumbnail} alt="book cover" />
-                    <h4 className="titleDecript"> {book.volumeInfo.title}</h4>
+                    <h2 className="titleDecript"> {book.volumeInfo.title}</h2>
                     {book.volumeInfo.authors.map((author, i) =>(                  
-                        <div key={i} className="Author">
+                        <h3 key={i} className="Author">
                             {author}
-                            </div>
+                            </h3>
                                  ))}
-                    <p>Number of pages: {book.volumeInfo.pageCount}</p>
+                    <h4>Number of pages: {book.volumeInfo.pageCount}</h4>
                 </div>
                 <div className="description">
-                <h3>DESCRIPTION:</h3>
-                <div dangerouslySetInnerHTML={{ __html: book.volumeInfo.description }} />
+                <h2>DESCRIPTION:</h2>
+                <div className="desp" dangerouslySetInnerHTML={{ __html: book.volumeInfo.description }} />
                 </div>
             </div>
             <div className="addBookBut">
+                    <p>{bookAdded&&"BOOK ADDED SUSCESFULLY"}</p>
                     <button className="summit-btn3" onClick={seeForm}>{Form ? "Hide Form" : "Add to my Shelf" }</button>
                 {Form? 
                     <div className="editReviewForm">
@@ -176,7 +178,7 @@ function BookDetail(){
                 :(<div></div>)}
             </div>
                 <div>
-                    <h3>PEOPLE´S OPINION</h3>
+                    <h3 className="subtitle1">PEOPLE´S OPINION</h3>
                     <hr className="division"/>
                 </div>
                     <RatingBook key={id} bookId={id} book={book} />

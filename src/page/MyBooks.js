@@ -1,4 +1,4 @@
-import { useContext, useEffect, useState } from "react";
+import { useContext, useEffect, useState, useIsFocused } from "react";
 import Navbar from "../components/Navbar";
 import { AuthContext } from "../context/auth.context";
 import axios from "axios";
@@ -9,17 +9,20 @@ const API_URL2 = "http://localhost:5005/api/books/";
 
 function MyBooks(){
     const { isLoggedIn, user, logOutUser } = useContext(AuthContext);
-    const[loading, setLoading] = useState(true);
+    const[update, setUpdate] = useState(false);
+
+    //const {isFocused} = useIsFocused()
+
+
 
 
     return(
-        <div>
+        <div className="MyBooks">
             <Navbar />
            <div className="columnsbboks">
             <MyRead />
             <MyReading />
             <MyTBR />
-            
            </div>
         </div>
     )

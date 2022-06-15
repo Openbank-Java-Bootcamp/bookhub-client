@@ -14,6 +14,7 @@ function RatingBook(props) {
     const[comment, setComment] = useState("");
     const[owner, setOwner] = useState(false);
     const[filter, setFilter] = useState("");
+    const[check, setCheck] = useState(false);
 
 
     useEffect(() =>{
@@ -60,7 +61,12 @@ function RatingBook(props) {
 
     const handleFilterChange = (e) =>{
         e.preventDefault();
-        ratings.sort((a,b) => a.points - b.points);
+        if(check){
+        const ratingSort = ratings.slice().sort((a,b) => a.points - b.points);
+        setRatings(ratingSort);
+        }else{
+            test();
+        }
     }
 
     const test = () =>{
@@ -68,16 +74,14 @@ function RatingBook(props) {
     }
 
     return(
-        <div>
+        <div className="rating-back">
             {loading ? <div>loading </div>
                 :(
             <div>
-                  <button onClick={test}>test</button>
-                FILTER BY: 
-                <select className="select1" name="select" value={filter} onChange={handleFilterChange}>
-                         <option value=""> </option>
-                        <option value="Points">Puntuation </option>
-                    </select>
+                <label>
+                ORDER BY POINTS: 
+                <input type="checkbox" id="orderPoints" name="OrderPoints" value="OrderPoint" onChange={handleFilterChange} />
+                </label>
             <div className="testimonial-box-container" >
             {ratings.map((rating) =>{
                 return ( <RatingBox key={rating.id} rating={rating} refresh={test} />
@@ -85,7 +89,7 @@ function RatingBook(props) {
             })}
                 </div>
                 <div>
-                    <h3>Leave your review! </h3>
+                    <h3 className="subtitle1">LEAVE YOUR REVEW! </h3>
                     <hr className="division"/>
                 </div>
                 <div className="YourRevew">

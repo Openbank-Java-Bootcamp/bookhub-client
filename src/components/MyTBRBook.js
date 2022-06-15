@@ -24,10 +24,10 @@ function MyBookBox(props){
     return(
         <div >
         <div className="cardTBR">
-            <button  className="summit-btn7" onClick={deleteBook}>🗑️</button>
+            <button  className="summit-btn7" onClick={deleteBook}>❌</button>
             <img src={props.book.imagen} alt="book cover" />
             <div className="button">
-            <Link to={`/book/${props.book.dbId}/info`}>
+            <Link to={`/book/${props.book.id}/info`}>
                 <h3 className="title2">{props.book.title}</h3>
              </Link>
             </div>

@@ -12,9 +12,42 @@ code {
     monospace;
 }
 
-*{
-font-family: sans-serif;
+.search{
+  padding: 5px 100px;
+  font-size: 1.3rem;
+  font-family: 'Monofett', cursive;
+  background-color: transparent;
+  border-radius: 20px;
 }
+
+.search1{
+  padding: 6px 20px;
+  font-size: 1.3rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.search1:hover{
+  transform: scale(1.9);
+}
+
+.TITLE2{
+  font-size: 2rem;
+  font-family: 'Monofett', cursive;
+  color:linear-gradient(rgba(0,0,0,0.4), rgba(222, 222, 50, 0.4))
+}
+
+.title3{
+  text-decoration: 'none'; 
+  font-family: 'Monofett', cursive;
+}
+
+.tite3:hover{
+  color: white;
+  font-family: 'Monofett', cursive;
+}
+
 
 .hero{
   height: 100%;
@@ -23,6 +56,7 @@ font-family: sans-serif;
   background-position: center;
   background-size: cover;
   position: absolute;
+  font-family: 'Monofett', cursive;
 }
 
 .formBox{
@@ -30,15 +64,18 @@ font-family: sans-serif;
   height: 480px;
   position: relative;
   margin: 6% auto;
-  background: #fff;
+  background:#f7f581e4;
   padding: 5px;
+  border-radius: 25px;
+  font-family: 'Monofett', cursive;
 }
 
 .button-box{
   width: 220px;
+  font-family: 'Monofett', cursive;
   margin: 35px auto;
   position: relative;
-  box-shadow: 0 0 20px 9px #ff61241f;
+  box-shadow: 0 0 20px 9px #5353101f;
   border-radius: 30px;
 }
 
@@ -46,44 +83,60 @@ font-family: sans-serif;
   padding: 10px 30px;
   cursor: pointer;
   background: transparent;
-  border: 0;
+  font-family: 'Anek Malayalam', sans-serif;
+  font-weight: bold;
+  font-size: 0.9rem;
+  border: 0.5px;
   outline: none;
   position: relative;
 }
+
+
 #btn{
   top:0;
   left:0;
   position:absolute ;
+  font-family: 'Roboto', sans-serif;
   width: 110px;
   height: 100%;
-  background: linear-gradient(to right, #ff105f, #ffad06);
+  background: linear-gradient(to right, #f5c528, #ffad06);
   border-radius: 30px;
   transition: .5s;  
 
 }
 
 .title{
-  color: #fff;
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 6rem;
+  color:#f7f581;
   top: 200px;
+  text-shadow:rgba(255, 255, 255, 0.715)
 }
 
 #btn2{
   top:0;
   left:110px;
+  font-family: 'Roboto', sans-serif;
   position:absolute ;
   width: 110px;
   height: 100%;
-  background: linear-gradient(to right, #ff105f, #ffad06);
+  background: linear-gradient(to right, #f5c528, #ffad06);
   border-radius: 30px;
   transition: .5s;  
 
 }
 .input-group{
   top: 180px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2rem;
   position: absolute;
   width: 280px;
   transition: .5s;
+}
 
+.subtitle1{
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.3rem;
 }
 .input-field{
   width: 100%;
@@ -92,9 +145,27 @@ font-family: sans-serif;
   border-top: 0;
   border-left: 0;
   border-right: 0;
-  border-bottom: 1px solid #999;
+  border-bottom: 3px solid rgb(0, 0, 0);
   outline: none;
   background: transparent;
+}
+
+.input-field::placeholder{
+  color: black;
+  font-size: 1rem;
+  font-family: 'Monofett', cursive;
+}
+
+.input-field2::placeholder{
+  color: black;
+  font-size: 1rem;
+  font-family: 'Monofett', cursive;
+}
+
+.input-field3::placeholder{
+  color: black;
+  font-size: 1rem;
+  font-family: 'Monofett', cursive;
 }
 .input-field6{
   width: 10%;
@@ -104,8 +175,11 @@ font-family: sans-serif;
   border-left: 0;
   border-right: 0;
   border-bottom: 1px solid #999;
+  font-weight: bold;
   outline: none;
   background: transparent;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2rem;
 }
 
 .input-field2{
@@ -129,44 +203,55 @@ font-family: sans-serif;
   border-right: 0;
   border-bottom: 1px solid #999;
   outline: none;
-  background: rgba(0, 0, 0, 0.584);
+  background: rgba(4, 0, 0, 0.587);
   color: white;
+  border-radius: 15px;
 }
 
 .select1{
+  margin-top: 15px;
   margin-bottom: 20px;
-  padding: 10px 50px;
+  padding: 10px 40px;
   font-size: 1.1rem;
-
+  border-radius: 20px;
+  background: transparent;
+  border: 3px solid black;
 }
+
 .summit-btn{
   width:85%;
   padding: 10px 30px;
   cursor: pointer;
   display: block;
   margin: auto;
-  background: linear-gradient(to right, #ff105f, #ffad06);
+  background: linear-gradient(to right, #f5c528, #feba30);
   border: 0;
   outline: none;
   border-radius: 30px;
+  font-family: 'Anek Malayalam', sans-serif;
+  font-weight: bold;
+  font-size: 0.9rem;
 }
 
 .summit-btn2{
-  width:85%;
-  padding: 10px 30px;
+  border: 3px solid #141414;
+  width:50%;
+  padding: 10px 20px;
   cursor: pointer;
   display: block;
   margin: auto;
   background: linear-gradient(to right, rgba(74, 230, 97, 0.288), #ffad06);
-  border: 0;
   outline: none;
   border-radius: 30px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2rem;
+  margin-top: 20px;
 }
 
 .summit-btn3{
-  width: 30%;
-  padding: 10px 30px;
+  width: 20%;
+  padding: 10px 20px;
   cursor: pointer;
   display: block;
   margin: auto;
@@ -175,12 +260,15 @@ font-family: sans-serif;
   outline: none;
   border-radius: 30px;
   margin-bottom: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.1rem;
 }
 
 .summit-btn3:hover, .summit-btn2:hover{
   transform: scale(0.9);
-  background-color: rgba(74, 230, 97, 0.288);
+  background-color: rgba(176, 83, 204, 0.288);
   color: white;
+  border: 3px solid #f5f5f5;
 }
 
 .buttonReview{
@@ -197,12 +285,16 @@ font-family: sans-serif;
   outline: none;
   border-radius: 30px;
   margin-bottom: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2rem;
 }
 
 .inputReading{
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2rem;
 }
 .columnsbboks{
   display: flex;
@@ -210,7 +302,6 @@ font-family: sans-serif;
   justify-content: space-between;
   margin-left: 40px;
   margin-right: 40px;
-  height: 100%;
 }
 .summit-btn5, .summit-btn6{
   padding: 10px 30px;
@@ -221,16 +312,27 @@ font-family: sans-serif;
   outline: none;
   border-radius: 30px;
   margin-bottom: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2rem;
 }
 .summit-btn7{
-  padding: 5px 10px;
+  font-size: 1.3rem;
+  padding: 5px 5px;
   width: 50%;
   cursor: pointer;
-  background: linear-gradient(to right,  #ec3820);
   border: 10px ;
   outline: none;
   border-radius: 50px;
-  margin-bottom: 15px; 
+  margin-bottom: 15px;
+  background-color: rgba(255, 255, 255, 0.616); 
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2rem;
+}
+
+.button a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Monofett', cursive
 }
 
 .summit-btn8{
@@ -242,6 +344,8 @@ font-family: sans-serif;
   outline: none;
   border-radius: 50px;
   margin-bottom: 15px; 
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2rem;
 }
 .buttom{
   background: transparent;
@@ -252,17 +356,27 @@ font-family: sans-serif;
   width: 90%;
   display: flex;
   flex-direction: column;
+  
 }
 
 .booktit{
+  font-family: 'Monofett', cursive;
   background-color: black;
+  border: 3px solid;
+  border-radius: 10px;
   width: 80%;
-  color:white;
+  background: linear-gradient(0.25turn, #3fa3a6, #ebf8e1, #dfdc1f8f);
 }
 
- .summit-btn4:hover, .summit-btn7:hover{
+ .summit-btn7:hover{
   transform: scale(0.9);
-  background-color: rgba(209, 35, 35, 0.87);
+  background-color: rgba(244, 244, 244, 0.87);
+  color: white;
+}
+
+.summit-btn4:hover{
+  transform: scale(0.9);
+  background-color: rgba(229, 21, 21, 0.87);
   color: white;
 }
 
@@ -300,10 +414,13 @@ left:50px;
   width: 100%;
   height: 100px;
   background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url(fondoBuscador.jpg);
+  background: rgba(0, 0, 0, 0.703);
 }
 
 .division{
-  width: 80%;
+  width: 50%;
+  background-color: rgb(57, 58, 31);
+  height: 4px;
 }
 
 .container{
@@ -331,25 +448,35 @@ left:50px;
 
 
 .card{
-background-color: rgb(230, 209, 74);
+background-color: rgba(230, 209, 74, 0.801);
   border-radius: 1rem;
   padding: 0.5rem;
   margin-bottom: 10px;
   box-shadow: 0 5px 5px rgba(212,185,.5) ;
+  transition: .5s;
+  text-align: center;
+  position: relative;
+  color: #999;
+}
+
+.card a {
+  text-decoration: none;
+}
+
+.cardTBR{
+  background-color: #4c4e46b9;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  margin-bottom: 10px;
+  box-shadow: 0 10px 10px rgb(210, 207, 185) ;
   transition: .5s;
   text-align: center;
   position: relative;
 }
-
-.cardTBR{
-  background-color: #b9d161;
-  border-radius: 1rem;
-  padding: 0.5rem;
-  margin-bottom: 10px;
-  box-shadow: 0 5px 5px rgba(212,185,.5) ;
-  transition: .5s;
-  text-align: center;
-  position: relative;
+.cardTBR:hover{
+  transform: scale(0.9);
+  background-color: rgba(46, 36, 42, 0.795);
+  box-shadow: #4b4b4b;
 }
 
 .cardREAD{
@@ -386,21 +513,31 @@ background-color: rgb(230, 209, 74);
 }
 
 .card img {
-  width: 100%;
+  width: 60%;
   height: 200px;
   border-radius: 1rem 1rem 0 0;
-
 }
 
 .card:hover{
   transform: scale(0.9);
-  background-color: black;
+  background-color: rgba(230, 209, 74, 0.135);
+  box-shadow: none ;
+  border:5px solid black;
 }
 
-.cardTBR:hover{
-  transform: scale(0.9);
-  background-color: rgba(223, 83, 160, 0.094);
+.HomePage{
+  background: rgba(230, 209, 74, 0.135);
+  height: 100%;
 }
+
+.MyBooks{
+  background: linear-gradient(0.25turn, #8dcacd, #ebf8e1, #c8c664d7);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+
+}
+
 
 .card .button .title2{
   text-decoration: none;
@@ -408,8 +545,6 @@ background-color: rgb(230, 209, 74);
 .title2:hover{
   color: black;
 }
-
-
 
 .card .buttom{
   display: flex;
@@ -433,14 +568,17 @@ background-color: rgb(230, 209, 74);
 .bookDetail{
   margin-top: 20px;
   width: 90%;
-  height: 400px;
+  min-height: 150px;
   display: flex;
   flex-direction: line;
-  background-color: rgb(230, 209, 74);
+  background: linear-gradient(to right, rgba(121, 211, 231, 0.326), #fffb02c3);
   margin-bottom: 10px;
   margin-left: 60px;
-
+  border-radius: 30px;
+  position: relative;
+  font-family: 'Roboto', sans-serif;
 }
+
 
 .ratingH{
   width: 70%;
@@ -453,31 +591,44 @@ background-color: rgb(230, 209, 74);
   width: 50%;
   margin-right: 20px;
   align-items: center;
+  font-family: 'Caveat', cursive;
+  margin-bottom: 20px;
 }
 
 .detail1 img {
   height: 200px;
   width: 200px;
-  margin-top: 20px;
+  margin-top: 40px;
 }
 .description{
-  font-size: 10px;
   width: 50%;
-  height: 400px;
+  height: 100%;
   margin-top: 50px;
-  margin-right: 50px;
+  margin-right: 60px;
+  margin-bottom: 50px;
+  font-family: 'Caveat', cursive;
 }
 
+
+
+
+
 .logout{
-  background-color: white;
-  color:black;
-  border-radius: 30px;
+  background-color: transparent;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.3rem;
+  color:white;
+  border-radius: 30px ;
   border-color: white;
   transition: transform 0.3s ease;
   font-size: 1.20rem;
   margin: 32px;
   padding: 10px 40px;
   position: relative;
+}
+.logout:hover{
+  background-color: white;
+  color: black;
 }
 
 .logout::after, .logout::before{
@@ -558,38 +709,64 @@ background-color: rgb(230, 209, 74);
   display: flex;
   justify-content: center;
   align-items: center;
-  
+  width: 50%;
+  border-radius: 30px;
+  box-sizing: border-box;
+  margin: auto;
+  margin-bottom: 50px;
+  background: linear-gradient(to right, rgba(121, 211, 231, 0.498), #dfdc1085);
+}
+
+.editReviewForm{
+  width: 60%;
+  margin: auto;
+  border-radius: 30px;
+  background: linear-gradient(to right, rgba(121, 211, 231, 0.498), #dfdc1085);
+}
+
+.addBookBut{
+  width: 60%;
+  margin: auto;
 }
 
 .labelStars{
-  font-size: 0.9rem;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2rem;
   justify-content: left;
   font-display: left;
   text-align: left;
+  margin-top: 20px;
 }
 
 .overlay{
-min-height: 100vh;
 width: 100%;
 left:0 ;
 top: 0;
 bottom: 0;
 right: 0;
-background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url(fondoBuscador.jpg);
 display: flex;
 align-items: center;
 justify-content: center;
 }
-
+.back{
+  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url(fondoBuscador.jpg);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+}
 .overlay-inner{
+  margin-top: 100px;
   background: white;
   width:700px;
-  height: 550px;
+  height: 500px;
   padding: 1.5rem;
   position: relative;
   box-sizing: border-box;
   overflow: hidden;
   font-size: 1.3rem;
+  border-radius: 20px;
+  box-shadow: 6px 6px  black;
+  height: 100%;
 }
 
 .overlay-inner .close{
@@ -601,6 +778,10 @@ justify-content: center;
   font-size: 17px;
   background: transparent;
   text-decoration: none;
+}
+
+.overlay-inner .close:hover{
+  transform: scale(0.9);
 }
 
 .overlay-inner .inner-box{

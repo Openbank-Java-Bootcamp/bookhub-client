@@ -4,8 +4,6 @@ import MyRead from "../components/MyRead";
 import { useEffect, useState } from "react";
 import MyBookBox from "./MyTBRBook";
 import BookCard from "./BookCard";
-import MyReadBook from "./MyReadBook";
-import MyReadingBook from "./MyReadingBook";
 const API_URL2 = "http://localhost:5005/api/books/READING";
 
 
@@ -42,7 +40,7 @@ function MyReading(){
                     console.log(book);
                     return(
                     <div className="bookBOX">
-                        <MyReadingBook key={book.id} book={book} refresh={getUserBook} />
+                        <MyBookBox key={book.id} book={book} refresh={getUserBook} />
                      </div>
                     );
                 })}

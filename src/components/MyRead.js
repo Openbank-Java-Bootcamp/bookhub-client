@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import BookCard from "./BookCard";
 import MyBookBox from "./MyTBRBook";
 import axios from "axios";
-import MyReadBook from "./MyReadBook";
 const API_URL2 = "http://localhost:5005/api/books/READ";
 
 function MyRead(){
@@ -38,7 +37,7 @@ function MyRead(){
                     console.log(book);
                     return(
                     <div className="bookBOX">
-                        <MyReadBook key={book.id} book={book} style="read" refresh={getUserBook} />
+                        <MyBookBox key={book.id} book={book} style="read" refresh={getUserBook} />
                      </div>
                     );
                 })}

@@ -52,7 +52,7 @@ function App() {
           }
         />
          <Route
-          path="/book/:isbn/info"
+          path="/book/:id/info"
           element={
             <IsPrivate>
               <InfoMyBook />
