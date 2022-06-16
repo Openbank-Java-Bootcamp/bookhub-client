@@ -20,38 +20,48 @@ All the remainding information, is being handle and saved by a backend develop b
 
 ## Components and Pages structure
 
-The app have the following pages:
+The app has the following pages:
 1. LOG IN 
-  ```http
+```
    /login
 ```
 3. SIGN UP PAGE
-  ```http
+```
    /singup
 ```
-4. HOME PAGE 
-  ```http
+4. HOME PAGE
+
+```http
    /
 ```
-    - BOOK CARD
+Main page of the app with the book searcher bar. Inside it has the component BOOK CARD for display each book return in the search.
+
 5. BOOK DETAIL PAGE
-  ```http
+```
    /book/:id
 ```
-    - RATING BOOK
-    - RATING BOX
+View display after clicking a book in the previous one. 
+It display some information about the book as well as the reviews. Here is also where u can add a book to your collection.
+Inside it has 2 componenets:
+    - RATING BOOK (to disply all the ratings
+    - RATING BOX (to diplay each rating)
 6. MY BOOKS PAGE
-  ```http
+View where you can see all the books that you have save.
+```
    /mybooks
 ```
-    - MY TBR
+Inside it has 3 componenets, for displaying the books on each category:
+    - MY TBR 
     - MY READING
     - MY READ
-        MY BOOK
+Inside each of them there is the componenet: 
+    -My Book (to display each book)
 7. MY BOOK INFO PAGE
-  ```http
+```
    /book/:id/info
 ```
+Page diplay after clicking in a book on MY BOOK PAGE. It display title, added day, and options to change the status.
+
 All the pages have the following component: 
 1. NAVBAR
 It has 3 bottons: LOGOUT (to login page), BOOK SEARCHER (to home page) and MY BOOKS (to my books page)
