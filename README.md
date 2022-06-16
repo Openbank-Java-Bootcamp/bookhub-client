@@ -1,15 +1,15 @@
-#BOOK-HUB
+# BOOK-HUB
 
-##Description of the project
+## Description of the project
 
 ##Setup(Optional)
 NPM START
-##Technologies Used
+## Technologies Used
 1. REACT
 2. CSS
 3. GOOGLE BOOKS API
 4. EL BACK 
-##Components and Pages structure
+## Components and Pages structure
 General components:
 1. NAVBAR
 2. IS ANON
@@ -28,12 +28,12 @@ Pages:
     - MY READ
         MY BOOK
 5. MY BOOK INFO PAGE
-##Demo
+## Demo
 
 Some pictures will be added. Do not wory
 
-##Future Work
+## Future Work
 At the moment, the proyect has all the require functionalities. For the future some great upgrades will be:
   1. Adding extra functionalities for bettering use experice like a searching bar on my books.
   2. Improving the desing, for example, on my book reading represent the amount of a book read by a loeading bar.
-##Resources
+## Resources
