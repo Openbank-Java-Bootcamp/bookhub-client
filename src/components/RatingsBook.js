@@ -90,7 +90,6 @@ function RatingBook(props) {
                 </div>
                 <div>
                     <h3 className="subtitle1">LEAVE YOUR REVEW! </h3>
-                    <hr className="division"/>
                 </div>
                 <div className="YourRevew">
                 <form onSubmit={handleRevewSumit}>

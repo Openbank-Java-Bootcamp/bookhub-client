@@ -108,7 +108,7 @@ function InfoMyBook(props){
         <Navbar />
      <div className="overlay">
         <div className="overlay-inner">
-        <Link className="close" to={`/mybooks`}>❌</Link>
+        <Link className="close" to={`/mybooks`}>X</Link>
         {!loading?
             <div className="inner-box">
                  {console.log(bookUserDetail)}

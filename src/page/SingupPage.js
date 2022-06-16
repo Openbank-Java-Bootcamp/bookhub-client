@@ -45,7 +45,7 @@ function SignupPage(props) {
         <div className="button-box">
         <div id="btn2"></div>
             <Link  to="/login">
-            <button className="toggle-btn">Login</button>
+            <button className="toggle">Login</button>
           </Link>
         <Link to="/signup">
             <button className="toggle-btn">Sign Up</button>

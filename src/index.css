@@ -1,3 +1,7 @@
+:root{
+  background-color: #FEFAE0;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -15,9 +19,13 @@ code {
 .search {
   padding: 5px 100px;
   font-size: 1.3rem;
-  font-family: "Monofett", cursive;
   background-color: transparent;
   border-radius: 20px;
+  border: 2px solid #283618;
+}
+
+.search::placeholder{
+  color: #283618 ;
 }
 
 .search1 {
@@ -34,13 +42,17 @@ code {
 
 .TITLE2 {
   font-size: 2rem;
-  font-family: "Monofett", cursive;
-  color: linear-gradient(rgba(0, 0, 0, 0.4), rgba(222, 222, 50, 0.4));
+  font-family: 'Dosis', sans-serif;
+  color: #283618;
 }
 
 .title3 {
-  text-decoration: "none";
-  font-family: "Monofett", cursive;
+  font-family: 'Dosis', sans-serif;
+  color: white;
+  background-color: #283618;
+  padding: 7px;
+  width: 80%;
+  margin: auto;
 }
 
 .tite3:hover {
@@ -51,7 +63,7 @@ code {
 .hero {
   height: 100%;
   width: 100%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+  background-image: linear-gradient(#606c3844, #2836181a),
     url(books.jpg.jpg);
   background-position: center;
   background-size: cover;
@@ -64,9 +76,9 @@ code {
   height: 480px;
   position: relative;
   margin: 6% auto;
-  background: #ded1bde5;
+  background-color: #fefae0e6;
   padding: 5px;
-  border-radius: 25px;
+  border-radius: 40px;
   font-family: "Monofett", cursive;
 }
 
@@ -83,6 +95,19 @@ code {
   padding: 10px 30px;
   cursor: pointer;
   background: transparent;
+  color:#FEFAE0;
+  font-family: "Anek Malayalam", sans-serif;
+  font-weight: bold;
+  font-size: 0.9rem;
+  border: 0.5px;
+  outline: none;
+  position: relative;
+}
+.toggle {
+  padding: 10px 30px;
+  cursor: pointer;
+  background: transparent;
+  color:#283618;
   font-family: "Anek Malayalam", sans-serif;
   font-weight: bold;
   font-size: 0.9rem;
@@ -98,7 +123,7 @@ code {
   font-family: "Roboto", sans-serif;
   width: 110px;
   height: 100%;
-  background: linear-gradient(to right, #f5c528, #ffad06);
+  background: linear-gradient(to right, #DDA15E, #BC6C25);
   border-radius: 30px;
   transition: 0.5s;
 }
@@ -106,9 +131,12 @@ code {
 .title {
   font-family: "Fredericka the Great", cursive;
   font-size: 6rem;
-  color: #f7f581;
+  color: #fefae0e6;
+  border-radius: 25px;
   top: 200px;
-  text-shadow: rgba(255, 255, 255, 0.715);
+  width: 45%;
+  background-color: #283618c1;
+  margin: 20px auto;
 }
 
 #btn2 {
@@ -118,7 +146,7 @@ code {
   position: absolute;
   width: 110px;
   height: 100%;
-  background: linear-gradient(to right, #f5c528, #ffad06);
+  background: linear-gradient(to right, #DDA15E, #BC6C25);
   border-radius: 30px;
   transition: 0.5s;
 }
@@ -129,11 +157,14 @@ code {
   position: absolute;
   width: 280px;
   transition: 0.5s;
+
 }
 
 .subtitle1 {
   font-family: "Roboto", sans-serif;
   font-size: 1.3rem;
+  font-weight: bold;
+  color: #283618;
 }
 .input-field {
   width: 100%;
@@ -142,25 +173,25 @@ code {
   border-top: 0;
   border-left: 0;
   border-right: 0;
-  border-bottom: 3px solid rgb(0, 0, 0);
+  border-bottom: 3px solid #283618;
   outline: none;
   background: transparent;
 }
 
 .input-field::placeholder {
-  color: black;
+  color:#283618;
   font-size: 1rem;
-  font-family: "Monofett", cursive;
+  font-family: 'Dosis', sans-serif;
 }
 
 .input-field2::placeholder {
-  color: black;
+  color:#283618;
   font-size: 1rem;
   font-family: "Monofett", cursive;
 }
 
 .input-field3::placeholder {
-  color: black;
+  color:#283618;
   font-size: 1rem;
   font-family: "Monofett", cursive;
 }
@@ -200,7 +231,7 @@ code {
   border-right: 0;
   border-bottom: 1px solid #999;
   outline: none;
-  background: rgba(4, 0, 0, 0.587);
+  background: #283618a0;
   color: white;
   border-radius: 15px;
 }
@@ -212,16 +243,17 @@ code {
   font-size: 1.1rem;
   border-radius: 20px;
   background: transparent;
-  border: 3px solid black;
+  border: 3px solid #283618;
 }
 
 .summit-btn {
+  color: #FEFAE0;
   width: 85%;
   padding: 10px 30px;
   cursor: pointer;
   display: block;
   margin: auto;
-  background: linear-gradient(to right, #f5c528, #feba30);
+  background: linear-gradient(to right, #DDA15E, #BC6C25);
   border: 0;
   outline: none;
   border-radius: 30px;
@@ -237,7 +269,8 @@ code {
   cursor: pointer;
   display: block;
   margin: auto;
-  background: linear-gradient(to right, rgba(74, 230, 97, 0.288), #ffad06);
+  color: #FEFAE0;
+  background: linear-gradient(to right, #606C38, #283618);
   outline: none;
   border-radius: 30px;
   margin-bottom: 40px;
@@ -252,8 +285,10 @@ code {
   cursor: pointer;
   display: block;
   margin: auto;
-  background: linear-gradient(to right, rgba(74, 230, 97, 0.288), #ffad06);
+  background: linear-gradient(to right, #606C38, #283618);
   border: 10px;
+  color: #FEFAE0;
+  border: 5px solid #606C38;
   outline: none;
   border-radius: 30px;
   margin-bottom: 20px;
@@ -265,8 +300,8 @@ code {
 .summit-btn2:hover {
   transform: scale(0.9);
   background-color: rgba(176, 83, 204, 0.288);
-  color: white;
-  border: 3px solid #f5f5f5;
+  color: #FEFAE0;
+  border: 3px solid #FEFAE0;
 }
 
 .buttonReview {
@@ -301,31 +336,42 @@ code {
   margin-left: 40px;
   margin-right: 40px;
 }
-.summit-btn5,
-.summit-btn6 {
+.summit-btn5 {
   padding: 10px 30px;
   cursor: pointer;
   margin: auto;
-  background: linear-gradient(to right, #ec3820);
-  border: 10px;
+  background-color: transparent;
   outline: none;
   border-radius: 30px;
   margin-bottom: 20px;
   font-family: "Roboto", sans-serif;
   font-size: 1.2rem;
 }
+
+.summit-btn6{
+  padding: 10px 30px;
+  cursor: pointer;
+  margin: auto;
+  background-color: #DDA15E;
+  border: 5px solid #BC6C25;
+  color: #FEFAE0;
+  outline: none;
+  border-radius: 30px;
+  margin-bottom: 20px;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+}
+
 .summit-btn7 {
   font-size: 1.3rem;
   padding: 5px 5px;
   width: 50%;
   cursor: pointer;
-  border: 10px;
   outline: none;
-  border-radius: 50px;
-  margin-bottom: 15px;
-  background-color: rgba(255, 255, 255, 0.616);
+  background-color: transparent;
+  border: none;
+  color:#FEFAE0;
   font-family: "Roboto", sans-serif;
-  font-size: 1.2rem;
 }
 
 .button a {
@@ -336,10 +382,11 @@ code {
 
 .summit-btn8 {
   padding: 5px 10px;
-  width: 60%;
+  width: 44%;
   cursor: pointer;
-  background: linear-gradient(to right, #ec3820);
-  border: 10px;
+  color:  #FEFAE0;
+  background: #DDA15E;
+  border: 4px solid #BC6C25;
   outline: none;
   border-radius: 50px;
   margin-bottom: 15px;
@@ -359,17 +406,15 @@ code {
 
 .booktit {
   font-family: "Monofett", cursive;
-  background-color: black;
   border: 3px solid;
   border-radius: 10px;
+  color: #283618;
   width: 80%;
-  background: linear-gradient(0.25turn, #3fa3a6, #ebf8e1, #dfdc1f8f);
+  
 }
 
 .summit-btn7:hover {
-  transform: scale(0.9);
-  background-color: rgba(244, 244, 244, 0.87);
-  color: white;
+  transform: scale(1.2);
 }
 
 .summit-btn4:hover {
@@ -379,17 +424,12 @@ code {
 }
 
 .summit-btn5:hover,
-.summit-btn8:hover {
+.summit-btn8:hover ,.summit-btn6:hover  {
   transform: scale(0.9);
-  background-color: rgba(15, 171, 106, 0.87);
-  color: white;
+  background-color: #283618;
+  color: #FEFAE0;
 }
 
-.summit-btn6:hover {
-  transform: scale(0.9);
-  background-color: rgb(255, 230, 0);
-  color: rgb(27, 28, 56);
-}
 
 #register {
   left: 50px;
@@ -408,12 +448,12 @@ code {
   height: 100px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url(fondoBuscador.jpg);
-  background: rgba(0, 0, 0, 0.703);
+  background: #283618e1;
 }
 
 .division {
   width: 50%;
-  background-color: rgb(57, 58, 31);
+  background-color:  #606C38;
   height: 4px;
 }
 
@@ -441,15 +481,14 @@ code {
 }
 
 .card {
-  background-color: rgba(230, 209, 74, 0.801);
+  background-color:#606C38;
   border-radius: 1rem;
   padding: 0.5rem;
   margin-bottom: 10px;
-  box-shadow: 0 5px 5px rgba(212, 185, 0.5);
+  box-shadow: 0 5px 5px #283618;
   transition: 0.5s;
   text-align: center;
   position: relative;
-  color: #999;
 }
 
 .card a {
@@ -457,84 +496,66 @@ code {
 }
 
 .cardTBR {
-  background-color: #4c4e46b9;
+  background-color: #283618;
   border-radius: 1rem;
   padding: 0.5rem;
   margin-bottom: 10px;
-  box-shadow: 0 10px 10px rgb(210, 207, 185);
+  box-shadow: 0 10px 10px #FEFAE0;
   transition: 0.5s;
   text-align: center;
   position: relative;
+}
+
+.title2{
+  color: #fefae0e5;
+}
+
+.cardTBR img{
+  border-radius: 10px;
+  border: 2px solid #606C38;
 }
 .cardTBR:hover {
   transform: scale(0.9);
-  background-color: rgba(46, 36, 42, 0.795);
-  box-shadow: #4b4b4b;
+  background-color: #606C38;
+  box-shadow: none;
+  color: black;
+  border: 2px solid #283618;
 }
 
-.cardREAD {
-  background-color: #e18942;
-  border-radius: 1rem;
-  padding: 0.5rem;
-  margin-bottom: 10px;
-  box-shadow: 0 5px 5px rgba(212, 185, 0.5);
-  transition: 0.5s;
-  text-align: center;
-  position: relative;
+.cardTBR a{
+  text-decoration: none;
 }
 
-.cardREADING {
-  background-color: #d5a18e;
-  border-radius: 1rem;
-  padding: 0.5rem;
-  margin-bottom: 10px;
-  box-shadow: 0 5px 5px rgba(212, 185, 0.5);
-  transition: 0.5s;
-  text-align: center;
-  position: relative;
-}
 
-.cardREADING:hover {
-  transform: scale(0.9);
-  background-color: rgba(223, 172, 83, 0.094);
-}
-
-.cardREAD:hover {
-  transform: scale(0.9);
-  background-color: rgba(83, 223, 221, 0.094);
-}
 
 .card img {
   width: 60%;
   height: 200px;
-  border-radius: 1rem 1rem 0 0;
+  border-radius: 10px;
+  border: 2px solid #283618;
 }
 
 .card:hover {
   transform: scale(0.9);
-  background-color: rgba(230, 209, 74, 0.135);
+  background-color: #DDA15E;
   box-shadow: none;
-  border: 5px solid black;
+  border: 5px solid #283618;
 }
 
+
+
 .HomePage {
-  background: rgba(230, 209, 74, 0.135);
+  background: #FEFAE0;
   height: 100%;
 }
 
 .MyBooks {
-  background: linear-gradient(0.25turn, #8dcacd, #ebf8e1, #c8c664d7);
+  background: linear-gradient(0.25turn, #DDA15E, #FEFAE0, #DDA15E );
   height: 100%;
   width: 100%;
   position: absolute;
 }
 
-.card .button .title2 {
-  text-decoration: none;
-}
-.title2:hover {
-  color: black;
-}
 
 .card .buttom {
   display: flex;
@@ -561,12 +582,25 @@ code {
   min-height: 150px;
   display: flex;
   flex-direction: line;
-  background: linear-gradient(to right, rgba(121, 211, 231, 0.326), #fffb02c3);
+  background: linear-gradient(to right, #DDA15E,#FEFAE0);
   margin-bottom: 10px;
   margin-left: 60px;
   border-radius: 30px;
+  border: 4px solid #283618;
   position: relative;
   font-family: "Roboto", sans-serif;
+  color: #283618;
+}
+
+.bookDetail img{
+  border-radius: 30px;
+  border: 5px solid #BC6C25;
+}
+
+.d{
+  background-color: #FEFAE0;
+  width: 100%;
+  height: 100%;
 }
 
 .ratingH {
@@ -577,10 +611,12 @@ code {
   display: flex;
   flex-direction: column;
   width: 50%;
+  margin-left: 20px;
   margin-right: 20px;
   align-items: center;
-  font-family: "Caveat", cursive;
+  font-family: 'Dosis', sans-serif;
   margin-bottom: 20px;
+  color: #283618;
 }
 
 .detail1 img {
@@ -594,16 +630,18 @@ code {
   margin-top: 50px;
   margin-right: 60px;
   margin-bottom: 50px;
-  font-family: "Caveat", cursive;
+  font-family: 'Dosis', sans-serif;
+  font-size: 1.3rem;
+  color: #283618;
 }
 
 .logout {
   background-color: transparent;
   font-family: "Roboto", sans-serif;
   font-size: 1.3rem;
-  color: white;
+  color: #FEFAE0;
   border-radius: 30px;
-  border-color: white;
+  border-color: #FEFAE0;
   transition: transform 0.3s ease;
   font-size: 1.2rem;
   margin: 32px;
@@ -611,8 +649,8 @@ code {
   position: relative;
 }
 .logout:hover {
-  background-color: white;
-  color: black;
+  background-color: #FEFAE0;
+  color: #283618;
 }
 
 .logout::after,
@@ -620,7 +658,7 @@ code {
   content: "";
   position: absolute;
   opacity: 0.3;
-  background: white;
+  background: #FEFAE0;
   border-radius: inherit;
   width: 100%;
   height: 100%;
@@ -676,7 +714,7 @@ code {
 }
 .name-user span {
   font-size: 0.8rem;
-  color: #979797;
+  color: #606C38;
 }
 
 .box-top {
@@ -686,8 +724,8 @@ code {
 }
 
 .client-comment {
-  font-size: 1.1rem;
-  color: #4b4b4b;
+  font-size: 1.3rem;
+  color: #283618;
 }
 
 .YourRevew {
@@ -699,15 +737,19 @@ code {
   box-sizing: border-box;
   margin: auto;
   margin-bottom: 50px;
-  background: linear-gradient(to right, rgba(121, 211, 231, 0.498), #dfdc1085);
+  border: 5px solid #283618
 }
 
 .editReviewForm {
   width: 60%;
   margin: auto;
   border-radius: 30px;
-  background: linear-gradient(to right, rgba(121, 211, 231, 0.498), #dfdc1085);
 }
+
+.opt{
+  background-color: #FEFAE0;
+}
+
 
 .addBookBut {
   width: 60%;
@@ -734,15 +776,15 @@ code {
   justify-content: center;
 }
 .back {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(fondoBuscador.jpg);
+  background-image: linear-gradient(#606c3868, #28361846),
+    url(books.jpg.jpg);
   width: 100%;
   height: 100%;
   position: fixed;
 }
 .overlay-inner {
   margin-top: 100px;
-  background: white;
+  background: #FEFAE0;
   width: 700px;
   height: 500px;
   padding: 1.5rem;
@@ -751,23 +793,26 @@ code {
   overflow: hidden;
   font-size: 1.3rem;
   border-radius: 20px;
-  box-shadow: 6px 6px black;
+  box-shadow: 6px 6px #283618;
   height: 100%;
+  color:#283618;
 }
 
 .overlay-inner .close {
   position: absolute;
   top: 1rem;
-  right: 1rem;
+  right: 2rem;
   outline: none;
   border: none;
-  font-size: 17px;
+  font-size: 1.3rem;
+  font-weight: bold;
   background: transparent;
   text-decoration: none;
+  color:#283618;
 }
 
 .overlay-inner .close:hover {
-  transform: scale(0.9);
+  transform: scale(1.2);
 }
 
 .overlay-inner .inner-box {

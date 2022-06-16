@@ -95,7 +95,7 @@ function RatingBox(props){
                 {owner ?
                 <div>
                  <div className="buttonReview">
-                    <button className="summit-btn4" onClick={deleteReview}>delete</button>
+                    <button className="summit-btn5" onClick={deleteReview}>delete</button>
                     <button className="summit-btn5" onClick={showForm}>{seeForm?"hideForm":"edit"}</button>
                     </div>
                     {seeForm?<div className="editReviewForm">

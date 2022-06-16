@@ -53,7 +53,7 @@ function HomePage() {
             <h2 className="TITLE2">Looking for a book?</h2>
             <div >
             <form  onSubmit={handleSubmit}>
-                <input className="search" name="search" type="text" placeholder="✨title✨"
+                <input className="search" name="search" type="text" placeholder="Introduce the title here"
                 value={search} onChange={e => setSearch(e.target.value)} />
                 <button className="search1" type="summit">🔍</button>
             </form>

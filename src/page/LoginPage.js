@@ -53,7 +53,7 @@ function LoginPage(props) {
             <button className="toggle-btn">Login</button>
           </Link>
         <Link to="/signup">
-            <button className="toggle-btn">Sign Up</button>
+            <button className="toggle">Sign Up</button>
           </Link>
             </div>
       <form id="login"className="input-group" onSubmit={handleLoginSubmit}>

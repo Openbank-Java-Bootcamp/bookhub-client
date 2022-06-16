@@ -133,7 +133,7 @@ function BookDetail(){
 
  
     return(
-        <div>
+        <div className="d">
             <Navbar />
             {loading ? <div>Loading</div>
             : (
@@ -161,10 +161,10 @@ function BookDetail(){
                     <div className="editReviewForm">
                     <form onSubmit={AddToBookToUser}>
                     <select className="select1" name="select" value={status} onChange={handleStatusChange}>
-                         <option value=""> </option>
-                        <option value="READ">I have already read it ! </option>
-                        <option value="READING" selected>What a coincidence, I am reading it !</option>
-                        <option value="TBR">I wanna save it for the future</option>
+                         <option className="opt" value=""> </option>
+                        <option className="opt" value="READ">I have already read it ! </option>
+                        <option className="opt" value="READING" selected>What a coincidence, I am reading it !</option>
+                        <option className="opt" value="TBR">I wanna save it for the future</option>
                     </select>
                     {reading? <div className="inputReading">
                     <label className="labelStars">In which page are you?</label>
