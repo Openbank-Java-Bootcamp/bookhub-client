@@ -71,23 +71,27 @@ It has 3 bottons: LOGOUT (to login page), BOOK SEARCHER (to home page) and MY BO
 These two last have security purposes.
 ## Demo
 1. Login/sing up page:
-![image](https://user-images.githubusercontent.com/90968486/174052379-8899802f-a7ae-4341-83a7-2cc43a8f16f8.png)
+![WhatsApp Image 2022-06-16 at 7 27 18 PM](https://user-images.githubusercontent.com/90968486/174151085-1e4afadc-a940-4583-a046-c4669c41ee23.jpeg)
+
 
 
 2. HOME PAGE
-![image](https://user-images.githubusercontent.com/90968486/174052504-df2cc8dd-ce4c-4d08-96d6-355907b03b55.png)
+![WhatsApp Image 2022-06-16 at 7 27 48 PM](https://user-images.githubusercontent.com/90968486/174151106-c84d6cb3-1511-4d6c-8437-f22175ea08f2.jpeg)
+
 
 
 3.BOOK DETAIL (being log as maria)
-![image](https://user-images.githubusercontent.com/90968486/174052822-d440a8e0-8861-4a40-b980-cf5d1f9b3fd6.png)
+![WhatsApp Image 2022-06-16 at 7 28 04 PM](https://user-images.githubusercontent.com/90968486/174151122-e886849a-2e93-4d08-bc1d-5fa1c3de2f36.jpeg)
+
 
 
 4. My books page
-![image](https://user-images.githubusercontent.com/90968486/174053012-2b2fa6b1-8340-4746-b8b8-f166170b750d.png)
+![WhatsApp Image 2022-06-16 at 7 28 34 PM](https://user-images.githubusercontent.com/90968486/174151134-6c8f0c1e-655c-4082-8faa-62e4397a7bbe.jpeg)
+
 
 
 5. Book info page
-![image](https://user-images.githubusercontent.com/90968486/174053052-6539b8be-48fd-4a08-902f-c7cbe19a0d39.png)
+![WhatsApp Image 2022-06-16 at 7 28 51 PM](https://user-images.githubusercontent.com/90968486/174151154-67a492c3-278c-4ce8-9246-c8a92b1c10ea.jpeg)
 
 
 
@@ -96,3 +100,4 @@ At the moment, the proyect has all the require functionalities. For the future s
   1. Adding extra functionalities for bettering use experice like a searching bar on my books.
   2. Improving the desing, for example, on my book reading represent the amount of a book read by a loeading bar.
 ## Resources
+TRELLO:  https://trello.com/invite/b/gEJ2ohgh/b35d9deae2e779a8b9157d5887937e50/bookhub
