@@ -1,26 +1,26 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
-.search{
+.search {
   padding: 5px 100px;
   font-size: 1.3rem;
-  font-family: 'Monofett', cursive;
+  font-family: "Monofett", cursive;
   background-color: transparent;
   border-radius: 20px;
 }
 
-.search1{
+.search1 {
   padding: 6px 20px;
   font-size: 1.3rem;
   background: none;
@@ -28,62 +28,62 @@ code {
   cursor: pointer;
 }
 
-.search1:hover{
+.search1:hover {
   transform: scale(1.9);
 }
 
-.TITLE2{
+.TITLE2 {
   font-size: 2rem;
-  font-family: 'Monofett', cursive;
-  color:linear-gradient(rgba(0,0,0,0.4), rgba(222, 222, 50, 0.4))
+  font-family: "Monofett", cursive;
+  color: linear-gradient(rgba(0, 0, 0, 0.4), rgba(222, 222, 50, 0.4));
 }
 
-.title3{
-  text-decoration: 'none'; 
-  font-family: 'Monofett', cursive;
+.title3 {
+  text-decoration: "none";
+  font-family: "Monofett", cursive;
 }
 
-.tite3:hover{
+.tite3:hover {
   color: white;
-  font-family: 'Monofett', cursive;
+  font-family: "Monofett", cursive;
 }
 
-
-.hero{
+.hero {
   height: 100%;
   width: 100%;
-  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url(books.jpg.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(books.jpg.jpg);
   background-position: center;
   background-size: cover;
   position: absolute;
-  font-family: 'Monofett', cursive;
+  font-family: "Monofett", cursive;
 }
 
-.formBox{
+.formBox {
   width: 380px;
   height: 480px;
   position: relative;
   margin: 6% auto;
-  background:#f7f581e4;
+  background: #ded1bde5;
   padding: 5px;
   border-radius: 25px;
-  font-family: 'Monofett', cursive;
+  font-family: "Monofett", cursive;
 }
 
-.button-box{
+.button-box {
   width: 220px;
-  font-family: 'Monofett', cursive;
+  font-family: "Monofett", cursive;
   margin: 35px auto;
   position: relative;
   box-shadow: 0 0 20px 9px #5353101f;
   border-radius: 30px;
 }
 
-.toggle-btn{
+.toggle-btn {
   padding: 10px 30px;
   cursor: pointer;
   background: transparent;
-  font-family: 'Anek Malayalam', sans-serif;
+  font-family: "Anek Malayalam", sans-serif;
   font-weight: bold;
   font-size: 0.9rem;
   border: 0.5px;
@@ -91,54 +91,51 @@ code {
   position: relative;
 }
 
-
-#btn{
-  top:0;
-  left:0;
-  position:absolute ;
-  font-family: 'Roboto', sans-serif;
+#btn {
+  top: 0;
+  left: 0;
+  position: absolute;
+  font-family: "Roboto", sans-serif;
   width: 110px;
   height: 100%;
   background: linear-gradient(to right, #f5c528, #ffad06);
   border-radius: 30px;
-  transition: .5s;  
-
+  transition: 0.5s;
 }
 
-.title{
-  font-family: 'Fredericka the Great', cursive;
+.title {
+  font-family: "Fredericka the Great", cursive;
   font-size: 6rem;
-  color:#f7f581;
+  color: #f7f581;
   top: 200px;
-  text-shadow:rgba(255, 255, 255, 0.715)
+  text-shadow: rgba(255, 255, 255, 0.715);
 }
 
-#btn2{
-  top:0;
-  left:110px;
-  font-family: 'Roboto', sans-serif;
-  position:absolute ;
+#btn2 {
+  top: 0;
+  left: 110px;
+  font-family: "Roboto", sans-serif;
+  position: absolute;
   width: 110px;
   height: 100%;
   background: linear-gradient(to right, #f5c528, #ffad06);
   border-radius: 30px;
-  transition: .5s;  
-
+  transition: 0.5s;
 }
-.input-group{
+.input-group {
   top: 180px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 1.2rem;
   position: absolute;
   width: 280px;
-  transition: .5s;
+  transition: 0.5s;
 }
 
-.subtitle1{
-  font-family: 'Roboto', sans-serif;
+.subtitle1 {
+  font-family: "Roboto", sans-serif;
   font-size: 1.3rem;
 }
-.input-field{
+.input-field {
   width: 100%;
   padding: 10px 0;
   margin: 5px 0;
@@ -150,24 +147,24 @@ code {
   background: transparent;
 }
 
-.input-field::placeholder{
+.input-field::placeholder {
   color: black;
   font-size: 1rem;
-  font-family: 'Monofett', cursive;
+  font-family: "Monofett", cursive;
 }
 
-.input-field2::placeholder{
+.input-field2::placeholder {
   color: black;
   font-size: 1rem;
-  font-family: 'Monofett', cursive;
+  font-family: "Monofett", cursive;
 }
 
-.input-field3::placeholder{
+.input-field3::placeholder {
   color: black;
   font-size: 1rem;
-  font-family: 'Monofett', cursive;
+  font-family: "Monofett", cursive;
 }
-.input-field6{
+.input-field6 {
   width: 10%;
   padding: 10px 0;
   margin: 5px 0;
@@ -178,11 +175,11 @@ code {
   font-weight: bold;
   outline: none;
   background: transparent;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 1.2rem;
 }
 
-.input-field2{
+.input-field2 {
   width: 100%;
   padding: 20px 40px;
   margin: 5px 0;
@@ -194,7 +191,7 @@ code {
   background: transparent;
 }
 
-.input-field3{
+.input-field3 {
   width: 80%;
   padding: 20px 40px;
   margin: 5px 0;
@@ -208,7 +205,7 @@ code {
   border-radius: 15px;
 }
 
-.select1{
+.select1 {
   margin-top: 15px;
   margin-bottom: 20px;
   padding: 10px 40px;
@@ -218,8 +215,8 @@ code {
   border: 3px solid black;
 }
 
-.summit-btn{
-  width:85%;
+.summit-btn {
+  width: 85%;
   padding: 10px 30px;
   cursor: pointer;
   display: block;
@@ -228,14 +225,14 @@ code {
   border: 0;
   outline: none;
   border-radius: 30px;
-  font-family: 'Anek Malayalam', sans-serif;
+  font-family: "Anek Malayalam", sans-serif;
   font-weight: bold;
   font-size: 0.9rem;
 }
 
-.summit-btn2{
+.summit-btn2 {
   border: 3px solid #141414;
-  width:50%;
+  width: 50%;
   padding: 10px 20px;
   cursor: pointer;
   display: block;
@@ -244,123 +241,124 @@ code {
   outline: none;
   border-radius: 30px;
   margin-bottom: 40px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 1.2rem;
   margin-top: 20px;
 }
 
-.summit-btn3{
+.summit-btn3 {
   width: 20%;
   padding: 10px 20px;
   cursor: pointer;
   display: block;
   margin: auto;
   background: linear-gradient(to right, rgba(74, 230, 97, 0.288), #ffad06);
-  border: 10px ;
+  border: 10px;
   outline: none;
   border-radius: 30px;
   margin-bottom: 20px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 1.1rem;
 }
 
-.summit-btn3:hover, .summit-btn2:hover{
+.summit-btn3:hover,
+.summit-btn2:hover {
   transform: scale(0.9);
   background-color: rgba(176, 83, 204, 0.288);
   color: white;
   border: 3px solid #f5f5f5;
 }
 
-.buttonReview{
+.buttonReview {
   display: flex;
   flex-direction: row;
 }
 
-.summit-btn4{
+.summit-btn4 {
   padding: 10px 30px;
   cursor: pointer;
   margin: auto;
-  background: linear-gradient(to right,  #ec3820);
-  border: 10px ;
+  background: linear-gradient(to right, #ec3820);
+  border: 10px;
   outline: none;
   border-radius: 30px;
   margin-bottom: 20px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 1.2rem;
 }
 
-.inputReading{
+.inputReading {
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 1.2rem;
 }
-.columnsbboks{
+.columnsbboks {
   display: flex;
   flex-direction: line;
   justify-content: space-between;
   margin-left: 40px;
   margin-right: 40px;
 }
-.summit-btn5, .summit-btn6{
+.summit-btn5,
+.summit-btn6 {
   padding: 10px 30px;
   cursor: pointer;
   margin: auto;
-  background: linear-gradient(to right,  #ec3820);
-  border: 10px ;
+  background: linear-gradient(to right, #ec3820);
+  border: 10px;
   outline: none;
   border-radius: 30px;
   margin-bottom: 20px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 1.2rem;
 }
-.summit-btn7{
+.summit-btn7 {
   font-size: 1.3rem;
   padding: 5px 5px;
   width: 50%;
   cursor: pointer;
-  border: 10px ;
+  border: 10px;
   outline: none;
   border-radius: 50px;
   margin-bottom: 15px;
-  background-color: rgba(255, 255, 255, 0.616); 
-  font-family: 'Roboto', sans-serif;
+  background-color: rgba(255, 255, 255, 0.616);
+  font-family: "Roboto", sans-serif;
   font-size: 1.2rem;
 }
 
 .button a {
   text-decoration: none;
   color: white;
-  font-family: 'Monofett', cursive
+  font-family: "Monofett", cursive;
 }
 
-.summit-btn8{
+.summit-btn8 {
   padding: 5px 10px;
   width: 60%;
   cursor: pointer;
-  background: linear-gradient(to right,  #ec3820);
-  border: 10px ;
+  background: linear-gradient(to right, #ec3820);
+  border: 10px;
   outline: none;
   border-radius: 50px;
-  margin-bottom: 15px; 
-  font-family: 'Roboto', sans-serif;
+  margin-bottom: 15px;
+  font-family: "Roboto", sans-serif;
   font-size: 1.2rem;
 }
-.buttom{
+.buttom {
   background: transparent;
 }
 
-.colum{
+.colum {
   margin-top: 20px;
   width: 90%;
   display: flex;
   flex-direction: column;
-  
 }
 
-.booktit{
-  font-family: 'Monofett', cursive;
+.booktit {
+  font-family: "Monofett", cursive;
   background-color: black;
   border: 3px solid;
   border-radius: 10px;
@@ -368,19 +366,20 @@ code {
   background: linear-gradient(0.25turn, #3fa3a6, #ebf8e1, #dfdc1f8f);
 }
 
- .summit-btn7:hover{
+.summit-btn7:hover {
   transform: scale(0.9);
   background-color: rgba(244, 244, 244, 0.87);
   color: white;
 }
 
-.summit-btn4:hover{
+.summit-btn4:hover {
   transform: scale(0.9);
   background-color: rgba(229, 21, 21, 0.87);
   color: white;
 }
 
-.summit-btn5:hover, .summit-btn8:hover {
+.summit-btn5:hover,
+.summit-btn8:hover {
   transform: scale(0.9);
   background-color: rgba(15, 171, 106, 0.87);
   color: white;
@@ -392,38 +391,33 @@ code {
   color: rgb(27, 28, 56);
 }
 
-
-
-#register{
-  left:50px;
-
-
+#register {
+  left: 50px;
 }
-#login{
-left:50px;
+#login {
+  left: 50px;
 }
 
-.header{
+.header {
   width: 100%;
   height: 100px;
-
 }
 
-
-.Navbar{
+.Navbar {
   width: 100%;
   height: 100px;
-  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url(fondoBuscador.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(fondoBuscador.jpg);
   background: rgba(0, 0, 0, 0.703);
 }
 
-.division{
+.division {
   width: 50%;
   background-color: rgb(57, 58, 31);
   height: 4px;
 }
 
-.container{
+.container {
   top: 500px;
   width: 65%;
   margin: 0 auto;
@@ -434,7 +428,7 @@ left:50px;
   box-sizing: border-box;
 }
 
-.container2{
+.container2 {
   top: 500px;
   width: 65%;
   margin: 0 auto;
@@ -446,14 +440,13 @@ left:50px;
   margin-left: 20px;
 }
 
-
-.card{
-background-color: rgba(230, 209, 74, 0.801);
+.card {
+  background-color: rgba(230, 209, 74, 0.801);
   border-radius: 1rem;
   padding: 0.5rem;
   margin-bottom: 10px;
-  box-shadow: 0 5px 5px rgba(212,185,.5) ;
-  transition: .5s;
+  box-shadow: 0 5px 5px rgba(212, 185, 0.5);
+  transition: 0.5s;
   text-align: center;
   position: relative;
   color: #999;
@@ -463,51 +456,50 @@ background-color: rgba(230, 209, 74, 0.801);
   text-decoration: none;
 }
 
-.cardTBR{
+.cardTBR {
   background-color: #4c4e46b9;
   border-radius: 1rem;
   padding: 0.5rem;
   margin-bottom: 10px;
-  box-shadow: 0 10px 10px rgb(210, 207, 185) ;
-  transition: .5s;
+  box-shadow: 0 10px 10px rgb(210, 207, 185);
+  transition: 0.5s;
   text-align: center;
   position: relative;
 }
-.cardTBR:hover{
+.cardTBR:hover {
   transform: scale(0.9);
   background-color: rgba(46, 36, 42, 0.795);
   box-shadow: #4b4b4b;
 }
 
-.cardREAD{
+.cardREAD {
   background-color: #e18942;
   border-radius: 1rem;
   padding: 0.5rem;
   margin-bottom: 10px;
-  box-shadow: 0 5px 5px rgba(212,185,.5) ;
-  transition: .5s;
+  box-shadow: 0 5px 5px rgba(212, 185, 0.5);
+  transition: 0.5s;
   text-align: center;
   position: relative;
 }
 
-.cardREADING{
+.cardREADING {
   background-color: #d5a18e;
   border-radius: 1rem;
   padding: 0.5rem;
   margin-bottom: 10px;
-  box-shadow: 0 5px 5px rgba(212,185,.5) ;
-  transition: .5s;
+  box-shadow: 0 5px 5px rgba(212, 185, 0.5);
+  transition: 0.5s;
   text-align: center;
   position: relative;
 }
 
-.cardREADING:hover{
+.cardREADING:hover {
   transform: scale(0.9);
   background-color: rgba(223, 172, 83, 0.094);
 }
 
-
-.cardREAD:hover{
+.cardREAD:hover {
   transform: scale(0.9);
   background-color: rgba(83, 223, 221, 0.094);
 }
@@ -518,54 +510,52 @@ background-color: rgba(230, 209, 74, 0.801);
   border-radius: 1rem 1rem 0 0;
 }
 
-.card:hover{
+.card:hover {
   transform: scale(0.9);
   background-color: rgba(230, 209, 74, 0.135);
-  box-shadow: none ;
-  border:5px solid black;
+  box-shadow: none;
+  border: 5px solid black;
 }
 
-.HomePage{
+.HomePage {
   background: rgba(230, 209, 74, 0.135);
   height: 100%;
 }
 
-.MyBooks{
+.MyBooks {
   background: linear-gradient(0.25turn, #8dcacd, #ebf8e1, #c8c664d7);
   height: 100%;
   width: 100%;
   position: absolute;
-
 }
 
-
-.card .button .title2{
+.card .button .title2 {
   text-decoration: none;
 }
-.title2:hover{
+.title2:hover {
   color: black;
 }
 
-.card .buttom{
+.card .buttom {
   display: flex;
   flex-direction: column;
 }
 
-.card .buttom .title{
-  font-size:  14px;
+.card .buttom .title {
+  font-size: 14px;
   margin-bottom: 12px;
-  text-decoration:  none;
+  text-decoration: none;
 }
 
-.card .buttom .author{
+.card .buttom .author {
   position: absolute;
   bottom: 10px;
   left: 10px;
   right: 10px;
-  text-decoration:  none;
+  text-decoration: none;
 }
 
-.bookDetail{
+.bookDetail {
   margin-top: 20px;
   width: 90%;
   min-height: 150px;
@@ -576,22 +566,20 @@ background-color: rgba(230, 209, 74, 0.801);
   margin-left: 60px;
   border-radius: 30px;
   position: relative;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
-
-.ratingH{
+.ratingH {
   width: 70%;
 }
 
-
-.detail1{
+.detail1 {
   display: flex;
   flex-direction: column;
   width: 50%;
   margin-right: 20px;
   align-items: center;
-  font-family: 'Caveat', cursive;
+  font-family: "Caveat", cursive;
   margin-bottom: 20px;
 }
 
@@ -600,41 +588,38 @@ background-color: rgba(230, 209, 74, 0.801);
   width: 200px;
   margin-top: 40px;
 }
-.description{
+.description {
   width: 50%;
   height: 100%;
   margin-top: 50px;
   margin-right: 60px;
   margin-bottom: 50px;
-  font-family: 'Caveat', cursive;
+  font-family: "Caveat", cursive;
 }
 
-
-
-
-
-.logout{
+.logout {
   background-color: transparent;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 1.3rem;
-  color:white;
-  border-radius: 30px ;
+  color: white;
+  border-radius: 30px;
   border-color: white;
   transition: transform 0.3s ease;
-  font-size: 1.20rem;
+  font-size: 1.2rem;
   margin: 32px;
   padding: 10px 40px;
   position: relative;
 }
-.logout:hover{
+.logout:hover {
   background-color: white;
   color: black;
 }
 
-.logout::after, .logout::before{
-  content:"";
-  position:absolute;
-  opacity:0.3;
+.logout::after,
+.logout::before {
+  content: "";
+  position: absolute;
+  opacity: 0.3;
   background: white;
   border-radius: inherit;
   width: 100%;
@@ -645,67 +630,67 @@ background-color: rgba(230, 209, 74, 0.801);
   transition: transform 0.3s ease;
 }
 
-.logout:hover{
+.logout:hover {
   transform: translate(-12px, -12px);
 }
 
-.logout:hover::after{
+.logout:hover::after {
   transform: translate(6px, 6px);
 }
 
-.logout:hover::before{
+.logout:hover::before {
   transform: translate(12px, 12px);
 }
 
-.testimonial-box-container{
-  display:flex;
+.testimonial-box-container {
+  display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   width: 100%;
 }
 
-.testimonial-box{
+.testimonial-box {
   width: 500px;
-  box-shadow:2px 2px 30px rgba(0,0,0,0.1) ;
+  box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.1);
   background-color: white;
   padding: 20px;
   margin: 15px;
   cursor: pointer;
 }
 
-.profile{
+.profile {
   display: flex;
   justify-content: left;
 }
 
-.name-user strong{
+.name-user strong {
   color: #61641e;
   font-size: 1.3rem;
-  letter-spacing: 0.5px; 
+  letter-spacing: 0.5px;
 }
-.name-user{
+.name-user {
   display: flex;
   flex-direction: column;
   justify-content: left;
 }
-.name-user span{
+.name-user span {
   font-size: 0.8rem;
-  color: #979797
+  color: #979797;
 }
 
-.box-top{
+.box-top {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.client-comment{
+.client-comment {
   font-size: 1.1rem;
   color: #4b4b4b;
 }
 
-.YourRevew{
+.YourRevew {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -717,20 +702,20 @@ background-color: rgba(230, 209, 74, 0.801);
   background: linear-gradient(to right, rgba(121, 211, 231, 0.498), #dfdc1085);
 }
 
-.editReviewForm{
+.editReviewForm {
   width: 60%;
   margin: auto;
   border-radius: 30px;
   background: linear-gradient(to right, rgba(121, 211, 231, 0.498), #dfdc1085);
 }
 
-.addBookBut{
+.addBookBut {
   width: 60%;
   margin: auto;
 }
 
-.labelStars{
-  font-family: 'Roboto', sans-serif;
+.labelStars {
+  font-family: "Roboto", sans-serif;
   font-size: 1.2rem;
   justify-content: left;
   font-display: left;
@@ -738,26 +723,27 @@ background-color: rgba(230, 209, 74, 0.801);
   margin-top: 20px;
 }
 
-.overlay{
-width: 100%;
-left:0 ;
-top: 0;
-bottom: 0;
-right: 0;
-display: flex;
-align-items: center;
-justify-content: center;
+.overlay {
+  width: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.back{
-  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url(fondoBuscador.jpg);
+.back {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(fondoBuscador.jpg);
   width: 100%;
   height: 100%;
   position: fixed;
 }
-.overlay-inner{
+.overlay-inner {
   margin-top: 100px;
   background: white;
-  width:700px;
+  width: 700px;
   height: 500px;
   padding: 1.5rem;
   position: relative;
@@ -765,11 +751,11 @@ justify-content: center;
   overflow: hidden;
   font-size: 1.3rem;
   border-radius: 20px;
-  box-shadow: 6px 6px  black;
+  box-shadow: 6px 6px black;
   height: 100%;
 }
 
-.overlay-inner .close{
+.overlay-inner .close {
   position: absolute;
   top: 1rem;
   right: 1rem;
@@ -780,11 +766,11 @@ justify-content: center;
   text-decoration: none;
 }
 
-.overlay-inner .close:hover{
+.overlay-inner .close:hover {
   transform: scale(0.9);
 }
 
-.overlay-inner .inner-box{
+.overlay-inner .inner-box {
   margin-top: 30px;
   display: flex;
   flex-direction: column;

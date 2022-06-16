@@ -35,7 +35,7 @@ function HomePage() {
         setBooks([]);
         setLoading(true);
         console.log(`https://www.googleapis.com/books/v1/volumes?q=intitle:"+${search}+"&printType=books&orderBy=newest&maxResults=40&key=AIzaSyBTeJJInkrzrYGIkCEwOoXpEb8yAg6mln4`);
-        axios.get(`https://www.googleapis.com/books/v1/volumes?q=intitle:${search}&printType=books&orderBy=newest&maxResults=12&key=AIzaSyBTeJJInkrzrYGIkCEwOoXpEb8yAg6mln4`)
+        axios.get(`https://www.googleapis.com/books/v1/volumes?q=intitle:${search}&printType=books&orderBy=newest&maxResults=39&key=AIzaSyBTeJJInkrzrYGIkCEwOoXpEb8yAg6mln4`)
         .then((response) => 
         {setBooks(response.data.items)
           console.log(response.data.items);
