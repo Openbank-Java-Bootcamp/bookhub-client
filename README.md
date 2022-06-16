@@ -1,70 +1,98 @@
-# Getting Started with Create React App
+# BOOK-HUB
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description of the project
 
-## Available Scripts
+Book-hub is an app where the users can rate books. All the books are being provided by Google Books API, so the variety of those is quite extense. In addition, the user can save the book he/she likes under 3 different categories: READ (he has already read it), TBR (is planning on read it on the future) and READING (is currently reading it). When the last category is selected, the user must provided the page he/she is on, sho we can track his/her progress.
 
-In the project directory, you can run:
+## Setup
 
-### `npm start`
+```
+npm start
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technologies Used
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The app was develop using react, html, js and css. 
 
-### `npm test`
+As it was menting previously, to get books data we use: GOOGLE BOOKS API
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+All the remainding information, is being handle and saved by a backend develop by us (for more info check the repo: bookhub-server)
 
-### `npm run build`
+## Components and Pages structure
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The app has the following pages:
+1. LOG IN 
+```
+   /login
+```
+3. SIGN UP PAGE
+```
+   /singup
+```
+4. HOME PAGE
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```http
+   /
+```
+Main page of the app with the book searcher bar. Inside it has the component BOOK CARD for display each book return in the search.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+5. BOOK DETAIL PAGE
+```
+   /book/:id
+```
+View display after clicking a book in the previous one. 
+It display some information about the book as well as the reviews. Here is also where u can add a book to your collection.
+Inside it has 2 componenets:
+    - RATING BOOK (to disply all the ratings
+    - RATING BOX (to diplay each rating)
+6. MY BOOKS PAGE
+View where you can see all the books that you have save.
+```
+   /mybooks
+```
+Inside it has 3 componenets, for displaying the books on each category:
+    - MY TBR 
+    - MY READING
+    - MY READ
+Inside each of them there is the componenet: 
+    -My Book (to display each book)
+7. MY BOOK INFO PAGE
+```
+   /book/:id/info
+```
+Page diplay after clicking in a book on MY BOOK PAGE. It display title, added day, and options to change the status.
 
-### `npm run eject`
+All the pages have the following component: 
+1. NAVBAR
+It has 3 bottons: LOGOUT (to login page), BOOK SEARCHER (to home page) and MY BOOKS (to my books page)
+2. INANNON 
+3. ISPRIVATE
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+These two last have security purposes.
+## Demo
+1. Login/sing up page:
+![image](https://user-images.githubusercontent.com/90968486/174052379-8899802f-a7ae-4341-83a7-2cc43a8f16f8.png)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+2. HOME PAGE
+![image](https://user-images.githubusercontent.com/90968486/174052504-df2cc8dd-ce4c-4d08-96d6-355907b03b55.png)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+3.BOOK DETAIL (being log as maria)
+![image](https://user-images.githubusercontent.com/90968486/174052822-d440a8e0-8861-4a40-b980-cf5d1f9b3fd6.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+4. My books page
+![image](https://user-images.githubusercontent.com/90968486/174053012-2b2fa6b1-8340-4746-b8b8-f166170b750d.png)
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+5. Book info page
+![image](https://user-images.githubusercontent.com/90968486/174053052-6539b8be-48fd-4a08-902f-c7cbe19a0d39.png)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Future Work
+At the moment, the proyect has all the require functionalities. For the future some great upgrades will be:
+  1. Adding extra functionalities for bettering use experice like a searching bar on my books.
+  2. Improving the desing, for example, on my book reading represent the amount of a book read by a loeading bar.
+## Resources
