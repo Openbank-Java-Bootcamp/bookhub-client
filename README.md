@@ -2,13 +2,22 @@
 
 ## Description of the project
 
-##Setup(Optional)
-NPM START
+Book-hub is an app where the users can rate books. All the books are being provided by Google Books API, so the variety of those is quite extense. In addition, the user can save the book he/she likes under 3 different categories: READ (he has already read it), TBR (is planning on read it on the future) and READING (is currently reading it). When the last category is selected, the user must provided the page he/she is on, sho we can track his/her progress.
+
+## Setup
+
+```
+npm start
+```
+
 ## Technologies Used
-1. REACT
-2. CSS
-3. GOOGLE BOOKS API
-4. EL BACK 
+
+The app was develop using react, html, js and css. 
+
+As it was menting previously, to get books data we use: GOOGLE BOOKS API
+
+All the remainding information, is being handle and saved by a backend develop by us (for more info check the repo: bookhub-server)
+
 ## Components and Pages structure
 General components:
 1. NAVBAR
