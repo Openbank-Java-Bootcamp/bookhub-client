@@ -31,7 +31,7 @@ The app has the following pages:
 ```
 4. HOME PAGE
 
-```http
+```
    /
 ```
 Main page of the app with the book searcher bar. Inside it has the component BOOK CARD for display each book return in the search.
