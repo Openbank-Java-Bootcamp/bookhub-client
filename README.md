@@ -81,7 +81,7 @@ These two last have security purposes.
 
 
 3.BOOK DETAIL (being log as maria)
-![WhatsApp Image 2022-06-16 at 7 28 04 PM](https://user-images.githubusercontent.com/90968486/174151122-e886849a-2e93-4d08-bc1d-5fa1c3de2f36.jpeg)
+![image](https://user-images.githubusercontent.com/90968486/174262714-4cfb86fa-bc47-48ad-a024-b1b98962134d.png)
 
 
 
