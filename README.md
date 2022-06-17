@@ -97,7 +97,7 @@ These two last have security purposes.
 
 ## Future Work
 At the moment, the proyect has all the require functionalities. For the future some great upgrades will be:
-  1. Adding extra functionalities for bettering use experice like a searching bar on my books.
-  2. Improving the desing, for example, on my book reading represent the amount of a book read by a loeading bar.
+  1. Adding extra functionalities for bettering use experice like a searching bar on my books or filtering the reviews.
+  2. Improving the desing. For example, on my book reading represent the percentaje of a book read by a loading bar.
 ## Resources
 TRELLO:  https://trello.com/invite/b/gEJ2ohgh/b35d9deae2e779a8b9157d5887937e50/bookhub
