@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import BookCard from "./BookCard";
-import MyBookBox from "./MyTBRBook";
+import MyBookBox from "./MyBookBox";
 import axios from "axios";
 const API_URL2 = "http://localhost:5005/api/books/READ";
 
@@ -12,6 +12,7 @@ function MyRead(){
         getUserBook();
     },[]);
 
+    //get userbook status read
     const getUserBook = () =>{
         const storedToken = localStorage.getItem("authToken");
         // Send the token through the request "Authorization" Headers

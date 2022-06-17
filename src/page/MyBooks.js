@@ -11,10 +11,6 @@ function MyBooks(){
     const { isLoggedIn, user, logOutUser } = useContext(AuthContext);
     const[update, setUpdate] = useState(false);
 
-    //const {isFocused} = useIsFocused()
-
-
-
 
     return(
         <div className="MyBooks">

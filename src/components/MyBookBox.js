@@ -7,6 +7,7 @@ const API_URL2 = "http://localhost:5005/api/books/";
 function MyBookBox(props){
     const [isbn, setIsbn] = useState(props.book.id);
 
+    //remove a userbook
     const deleteBook =() =>{
         const storedToken = localStorage.getItem("authToken");
         // Send the token through the request "Authorization" Headers

@@ -21,6 +21,7 @@ function RatingBook(props) {
         getReviews();
     },[]);
 
+    //get all reviews of a book
     const getReviews = () =>{
         console.log("does get inside?");
         const storedToken = localStorage.getItem("authToken");
@@ -37,6 +38,7 @@ function RatingBook(props) {
     const handlepoints = (e) => setPoints(e.target.value);
     const handleComment = (e) => setComment(e.target.value);
 
+    //post a review
     const handleRevewSumit = (e) =>{
         e.preventDefault();
         var imagen = props.book.volumeInfo.imageLinks.smallThumbnail;
@@ -59,16 +61,7 @@ function RatingBook(props) {
           .catch((error) => console.log(error));
     }
 
-    const handleFilterChange = (e) =>{
-        e.preventDefault();
-        if(check){
-        const ratingSort = ratings.slice().sort((a,b) => a.points - b.points);
-        setRatings(ratingSort);
-        }else{
-            test();
-        }
-    }
-
+    //for calling the method getReviews (it was giving problems when being called directly)
     const test = () =>{
         getReviews();
     }
@@ -78,10 +71,6 @@ function RatingBook(props) {
             {loading ? <div>loading </div>
                 :(
             <div>
-                <label>
-                ORDER BY POINTS: 
-                <input type="checkbox" id="orderPoints" name="OrderPoints" value="OrderPoint" onChange={handleFilterChange} />
-                </label>
             <div className="testimonial-box-container" >
             {ratings.map((rating) =>{
                 return ( <RatingBox key={rating.id} rating={rating} refresh={test} />

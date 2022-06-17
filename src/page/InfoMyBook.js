@@ -22,6 +22,7 @@ function InfoMyBook(props){
         getBookUserDetail();
     },[]);
 
+    //get userbook
     const getBookUserDetail = () =>{
         const storedToken = localStorage.getItem("authToken");
         axios
@@ -37,6 +38,7 @@ function InfoMyBook(props){
         .catch((error) => console.log(error));
     }
 
+    //calculate percentaje read
     const readpages = () =>{
         if(bookUserDetail.status == "READING"){
           var percentageRead =  Math.trunc((bookUserDetail.numPages / bookUserDetail.book.pages)*100);
@@ -44,6 +46,7 @@ function InfoMyBook(props){
         }
     }
 
+    //patch status 
     const changeStatusRead = () =>{
         const storedToken = localStorage.getItem("authToken");
         const requestbody ={ "status": "READ"}
@@ -81,6 +84,7 @@ function InfoMyBook(props){
         .catch((error) => console.log(error));
     }
 
+    //hide and see form for patch pages
     const showForm = ()=>{
         if (seeForm){
             setSeeForm(false);
@@ -89,6 +93,7 @@ function InfoMyBook(props){
         }
     }
 
+    //patch pages book
     const UpdatePages =(e) =>{
         e.preventDefault();
         const storedToken = localStorage.getItem("authToken");

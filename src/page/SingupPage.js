@@ -18,6 +18,7 @@ function SignupPage(props) {
   const handlePassword = (e) => setPassword(e.target.value);
   const handleName = (e) => setName(e.target.value);
 
+  //singup process
   const handleSignupSubmit = (e) => {
     e.preventDefault();
     // Create an object representing the request body

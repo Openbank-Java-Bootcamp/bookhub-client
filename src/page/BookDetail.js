@@ -23,7 +23,7 @@ function BookDetail(){
     const handlepoints = (e) => setPoints(e.target.value);
     const handleComment = (e) => setComment(e.target.value);
 
-    //añadir info del book
+    //post a review
     const handleRevewSumit = (e) =>{
         e.preventDefault();
         const requestBody = {"bookId": id,points, comment, "imagen":book.volumeInfo.imageLinks.smallThumbnail,
@@ -44,38 +44,12 @@ function BookDetail(){
           .catch((error) => console.log(error));
 
     }
-
-/*
-    //FOR WHEN WE WORK WITH THE SAMPLE DATA
-    useEffect(() =>{
-        var dbBook = bookData.items.map((v1) =>{
-            if (v1.id == id){
-                setBook(v1);
-                setLoading(false);
-                return v1;
-            }
-        })
-    },[book]);
-
-    const getbookDBFalsa = () =>{
-        var dbBook = bookData.items.map((v1) =>{
-            if (v1.id == id){
-                setBook(v1);
-                setLoading(false);
-                return v1;
-            }
-        })
-    }
-
-    //end of working with sample data
-    */
-
     
     useEffect(() =>{
         getBook();
     },[]);
     
-
+    //get book (from google api)
     const getBook = () =>{
         console.log(id);
         axios.get("https://www.googleapis.com/books/v1/volumes/"+id+"?key=AIzaSyBTeJJInkrzrYGIkCEwOoXpEb8yAg6mln4")
@@ -88,12 +62,13 @@ function BookDetail(){
     }
 
 
-
+    //hide and see form button
     const seeForm = () =>{
         Form ? setForm(false)
         : setForm(true);
     }
 
+    //see and hide form of number of pages (reading status)
     const handleStatusChange = (e)  =>{
         if(e.target.value=="READING"){
             setReading(true);
@@ -103,6 +78,7 @@ function BookDetail(){
         setStatus(e.target.value)
     }
     
+    //post a book
     const AddToBookToUser = (e) =>{
         e.preventDefault();
         const storedToken = localStorage.getItem("authToken");

@@ -20,6 +20,7 @@ function RatingBox(props){
         userIsOwner();
     },[]);
 
+    //just for showing the puntuation in stars
     const starts = () =>{
         var starts = [];
         for (let i = 0; i < points; i++){
@@ -28,12 +29,14 @@ function RatingBox(props){
         setNumStarts(starts);
     }
 
+    //see if the login user can edit / delete a review
     const userIsOwner =  () => {;
         if (user.email == props.rating.user.email){
             setOwner(true);
         }
     } 
 
+    //delete a review
     const deleteReview = () =>{
         const storedToken = localStorage.getItem("authToken");
         console.log(API_URL+props.rating.id);
@@ -47,6 +50,7 @@ function RatingBox(props){
         props.refresh();
     }
 
+    //see and hide edit form
     const showForm = () =>{
         if(seeForm) {
             setSeeForm(false);
@@ -55,6 +59,7 @@ function RatingBox(props){
         }
     }
 
+    //patch review
     const editReview = (e) =>{
         e.preventDefault();
         const requestbody = {comment, points}
